@@ -1,0 +1,146 @@
+{
+  "spdxVersion": "SPDX-2.3",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "name": "apk-bash-5.3-r14",
+  "documentNamespace": "https://spdx.org/spdxdocs/chainguard/build/ca2c5f0e87bc5d7f3b41da3c61f96e27",
+  "creationInfo": {
+    "licenseListVersion": "3.22",
+    "creators": [
+      "Tool: chainguard-build (v0.62.0)",
+      "Organization: Chainguard, Inc"
+    ],
+    "created": "2026-10-09T01:49:13Z"
+  },
+  "packages": [
+    {
+      "name": "wolfi",
+      "SPDXID": "SPDXRef-OperatingSystem",
+      "supplier": "Organization: Wolfi",
+      "originator": "Organization: Wolfi",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "description": "Operating System",
+      "primaryPackagePurpose": "OPERATING-SYSTEM"
+    },
+    {
+      "name": "bash",
+      "SPDXID": "SPDXRef-Package-apk-bash-5.3-r14",
+      "versionInfo": "5.3-r14",
+      "supplier": "Organization: Wolfi",
+      "originator": "Organization: Wolfi",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "GPL-3.0-or-later",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:apk/wolfi/bash@5.3-r14?arch=x86_64\u0026distro=wolfi"
+        }
+      ],
+      "primaryPackagePurpose": "APPLICATION"
+    },
+    {
+      "name": "bash.yaml",
+      "SPDXID": "SPDXRef-Package-Melange-bash.yaml-ac7b15dc2695924986372a27cd7d6c4e029c5efa",
+      "versionInfo": "ac7b15dc2695924986372a27cd7d6c4e029c5efa",
+      "supplier": "Organization: Wolfi",
+      "originator": "Organization: Wolfi",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:github/chainguard-dev/stereo@ac7b15dc2695924986372a27cd7d6c4e029c5efa#bash.yaml"
+        }
+      ],
+      "primaryPackagePurpose": "INSTALL"
+    },
+    {
+      "name": "git/bash",
+      "SPDXID": "SPDXRef-Package-Source-git.savannah.gnu.org-git-bash.git-bash-5.3-b8c60bc9ca365f8261fa97900b6fa939f6ebc303-0",
+      "versionInfo": "bash-5.3",
+      "supplier": "Organization: Wolfi",
+      "originator": "Organization: Wolfi",
+      "downloadLocation": "https://tarballs.cgr.dev/g/0e7c34c3027d7f6da5723ac0c18a27c10a29ce56d560c36969b71020e9407623-b8c60bc9ca365f8261fa97900b6fa939f6ebc303.tar.gz",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "GPL-3.0-or-later",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:generic/git%2Fbash@bash-5.3?vcs_url=git%2Bhttps:%2F%2Fgit.savannah.gnu.org%2Fgit%2Fbash.git%40b8c60bc9ca365f8261fa97900b6fa939f6ebc303"
+        }
+      ],
+      "primaryPackagePurpose": "SOURCE"
+    },
+    {
+      "name": "bash",
+      "SPDXID": "SPDXRef-Package-apk-bash-68d4d037932aa447",
+      "versionInfo": "5.3-r14",
+      "supplier": "Organization: chainguard",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "sourceInfo": "acquired package info from APK DB: /.PKGINFO",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "GPL-3.0-or-later",
+      "copyrightText": "NOASSERTION",
+      "description": "GNU bourne again shell",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:apk/wolfi/bash@5.3-r14?arch=x86_64\u0026origin=bash"
+        }
+      ]
+    },
+    {
+      "name": "bash",
+      "SPDXID": "SPDXRef-DocumentRoot-Directory-bash",
+      "versionInfo": "5.3-r14",
+      "supplier": "Organization: chainguard",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "primaryPackagePurpose": "FILE"
+    }
+  ],
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-Package-apk-bash-5.3-r14",
+      "relatedSpdxElement": "SPDXRef-Package-Melange-bash.yaml-ac7b15dc2695924986372a27cd7d6c4e029c5efa",
+      "relationshipType": "DESCRIBED_BY"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-apk-bash-5.3-r14",
+      "relatedSpdxElement": "SPDXRef-Package-Source-git.savannah.gnu.org-git-bash.git-bash-5.3-b8c60bc9ca365f8261fa97900b6fa939f6ebc303-0",
+      "relationshipType": "GENERATED_FROM"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relatedSpdxElement": "SPDXRef-Package-apk-bash-5.3-r14",
+      "relationshipType": "DESCRIBES"
+    },
+    {
+      "spdxElementId": "SPDXRef-DocumentRoot-Directory-bash",
+      "relatedSpdxElement": "SPDXRef-Package-apk-bash-68d4d037932aa447",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-apk-bash-5.3-r14",
+      "relatedSpdxElement": "SPDXRef-DocumentRoot-Directory-bash",
+      "relationshipType": "CONTAINS"
+    }
+  ]
+}

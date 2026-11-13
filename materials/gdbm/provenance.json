@@ -1,0 +1,27 @@
+{
+  "package": "gdbm-1.26-r9.spdx.json",
+  "sources": [
+    {
+      "url": "https://tarballs.cgr.dev/g/42740bd9e1a78209c3c68f439ab4397c34f0ed77c165a024d710bdd48e76d1df-8ca8f03ab6cc125139a395ec2d522aebb15f8060.tar.gz",
+      "sha256": "6ea87ca2b9a1e2d134abea9de169a9e23bc1444cae6503db65813a04732bf1fe",
+      "accessible": true
+    }
+  ],
+  "materials": [
+    {
+      "file": "COPYING.txt",
+      "upstream_path": "gdbm-8ca8f03ab6cc125139a395ec2d522aebb15f8060/COPYING",
+      "sha256": "690d762f2e8e149ab1e2d6a409a3853b6151a2533b2382fae549a176d6bedecf"
+    },
+    {
+      "file": "recipe.yaml.txt",
+      "upstream_path": "https://raw.githubusercontent.com/wolfi-dev/os/b05894c521b790b03b8f2dfe1bc573f7e31acb44/gdbm.yaml",
+      "sha256": "ac67a8b2a57c0243d11ca24351172e977d34562bec865d4a755c98910c7c4c1d"
+    }
+  ],
+  "original_recipe": {
+    "url": "https://raw.githubusercontent.com/chainguard-dev/stereo/bdc197227f39597f43727c03854efbb4e834c5ef/gdbm.yaml",
+    "accessible": false,
+    "error": "HTTP Error 404: Not Found"
+  }
+}

@@ -1,0 +1,146 @@
+{
+  "spdxVersion": "SPDX-2.3",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "name": "apk-gdbm-1.26-r9",
+  "documentNamespace": "https://spdx.org/spdxdocs/chainguard/build/49251d9ad7f2c35d1d0174a3b95eb9ba",
+  "creationInfo": {
+    "licenseListVersion": "3.22",
+    "creators": [
+      "Tool: chainguard-build (v0.63.1)",
+      "Organization: Chainguard, Inc"
+    ],
+    "created": "2026-10-26T20:46:04Z"
+  },
+  "packages": [
+    {
+      "name": "wolfi",
+      "SPDXID": "SPDXRef-OperatingSystem",
+      "supplier": "Organization: Wolfi",
+      "originator": "Organization: Wolfi",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "description": "Operating System",
+      "primaryPackagePurpose": "OPERATING-SYSTEM"
+    },
+    {
+      "name": "gdbm",
+      "SPDXID": "SPDXRef-Package-apk-gdbm-1.26-r9",
+      "versionInfo": "1.26-r9",
+      "supplier": "Organization: Wolfi",
+      "originator": "Organization: Wolfi",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "GPL-3.0-or-later",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:apk/wolfi/gdbm@1.26-r9?arch=x86_64\u0026distro=wolfi"
+        }
+      ],
+      "primaryPackagePurpose": "APPLICATION"
+    },
+    {
+      "name": "gdbm.yaml",
+      "SPDXID": "SPDXRef-Package-Melange-gdbm.yaml-bdc197227f39597f43727c03854efbb4e834c5ef",
+      "versionInfo": "bdc197227f39597f43727c03854efbb4e834c5ef",
+      "supplier": "Organization: Wolfi",
+      "originator": "Organization: Wolfi",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:github/chainguard-dev/stereo@bdc197227f39597f43727c03854efbb4e834c5ef#gdbm.yaml"
+        }
+      ],
+      "primaryPackagePurpose": "INSTALL"
+    },
+    {
+      "name": "git/gdbm",
+      "SPDXID": "SPDXRef-Package-Source-git.savannah.gnu.org-git-gdbm.git-v1.26-8ca8f03ab6cc125139a395ec2d522aebb15f8060-0",
+      "versionInfo": "v1.26",
+      "supplier": "Organization: Wolfi",
+      "originator": "Organization: Wolfi",
+      "downloadLocation": "https://tarballs.cgr.dev/g/42740bd9e1a78209c3c68f439ab4397c34f0ed77c165a024d710bdd48e76d1df-8ca8f03ab6cc125139a395ec2d522aebb15f8060.tar.gz",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "GPL-3.0-or-later",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:generic/git%2Fgdbm@v1.26?vcs_url=git%2Bhttps:%2F%2Fgit.savannah.gnu.org%2Fgit%2Fgdbm.git%408ca8f03ab6cc125139a395ec2d522aebb15f8060"
+        }
+      ],
+      "primaryPackagePurpose": "SOURCE"
+    },
+    {
+      "name": "gdbm",
+      "SPDXID": "SPDXRef-Package-apk-gdbm-0e6151a2dd64572b",
+      "versionInfo": "1.26-r9",
+      "supplier": "Organization: chainguard",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "sourceInfo": "acquired package info from APK DB: /.PKGINFO",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "GPL-3.0-or-later",
+      "copyrightText": "NOASSERTION",
+      "description": "GNU dbm is a set of database routines which use extensible hashing",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:apk/wolfi/gdbm@1.26-r9?arch=x86_64\u0026origin=gdbm"
+        }
+      ]
+    },
+    {
+      "name": "gdbm",
+      "SPDXID": "SPDXRef-DocumentRoot-Directory-gdbm",
+      "versionInfo": "1.26-r9",
+      "supplier": "Organization: chainguard",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "primaryPackagePurpose": "FILE"
+    }
+  ],
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-Package-apk-gdbm-1.26-r9",
+      "relatedSpdxElement": "SPDXRef-Package-Melange-gdbm.yaml-bdc197227f39597f43727c03854efbb4e834c5ef",
+      "relationshipType": "DESCRIBED_BY"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-apk-gdbm-1.26-r9",
+      "relatedSpdxElement": "SPDXRef-Package-Source-git.savannah.gnu.org-git-gdbm.git-v1.26-8ca8f03ab6cc125139a395ec2d522aebb15f8060-0",
+      "relationshipType": "GENERATED_FROM"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relatedSpdxElement": "SPDXRef-Package-apk-gdbm-1.26-r9",
+      "relationshipType": "DESCRIBES"
+    },
+    {
+      "spdxElementId": "SPDXRef-DocumentRoot-Directory-gdbm",
+      "relatedSpdxElement": "SPDXRef-Package-apk-gdbm-0e6151a2dd64572b",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-apk-gdbm-1.26-r9",
+      "relatedSpdxElement": "SPDXRef-DocumentRoot-Directory-gdbm",
+      "relationshipType": "CONTAINS"
+    }
+  ]
+}

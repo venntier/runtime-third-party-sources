@@ -1,0 +1,28 @@
+{
+  "package": "apk-tools-2.14.13-r1.spdx.json",
+  "sources": [
+    {
+      "url": "https://tarballs.cgr.dev/a/30f50847291d6711d36ff8c57d76ddd27b0e5c6aa3579e2c270c40018c1297b4-179aba9f22c2e22d45b21bd68e9478fe06d8896a.tar.gz",
+      "accessible": false,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://codeload.github.com/alpinelinux/apk-tools/tar.gz/179aba9f22c2e22d45b21bd68e9478fe06d8896a",
+      "role": "alternate upstream mirror; not asserted supplier-equivalent",
+      "accessible": false,
+      "error": "HTTP Error 404: Not Found"
+    }
+  ],
+  "materials": [
+    {
+      "file": "recipe.yaml.txt",
+      "upstream_path": "https://raw.githubusercontent.com/wolfi-dev/os/b05894c521b790b03b8f2dfe1bc573f7e31acb44/apk-tools.yaml",
+      "sha256": "023f012e1d85d0c35ad80197ea366d0dff025c63d087384f8d91f7010a69e3fa"
+    }
+  ],
+  "original_recipe": {
+    "url": "https://raw.githubusercontent.com/chainguard-dev/stereo/d8c1739b8ac0376433f810660cfe5c19987e66d2/apk-tools.yaml",
+    "accessible": false,
+    "error": "HTTP Error 404: Not Found"
+  }
+}

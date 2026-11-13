@@ -1,0 +1,146 @@
+{
+  "spdxVersion": "SPDX-2.3",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "name": "apk-apk-tools-2.14.13-r1",
+  "documentNamespace": "https://spdx.org/spdxdocs/chainguard/build/37c7d30a61f19aade16659cf64b7fcb0",
+  "creationInfo": {
+    "licenseListVersion": "3.22",
+    "creators": [
+      "Tool: chainguard-build (v0.63.2)",
+      "Organization: Chainguard, Inc"
+    ],
+    "created": "2026-11-05T21:23:58Z"
+  },
+  "packages": [
+    {
+      "name": "wolfi",
+      "SPDXID": "SPDXRef-OperatingSystem",
+      "supplier": "Organization: Wolfi",
+      "originator": "Organization: Wolfi",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "description": "Operating System",
+      "primaryPackagePurpose": "OPERATING-SYSTEM"
+    },
+    {
+      "name": "apk-tools",
+      "SPDXID": "SPDXRef-Package-apk-apk-tools-2.14.13-r1",
+      "versionInfo": "2.14.13-r1",
+      "supplier": "Organization: Wolfi",
+      "originator": "Organization: Wolfi",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "GPL-2.0-only",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:apk/wolfi/apk-tools@2.14.13-r1?arch=x86_64\u0026distro=wolfi"
+        }
+      ],
+      "primaryPackagePurpose": "APPLICATION"
+    },
+    {
+      "name": "apk-tools.yaml",
+      "SPDXID": "SPDXRef-Package-Melange-apk-tools.yaml-d8c1739b8ac0376433f810660cfe5c19987e66d2",
+      "versionInfo": "d8c1739b8ac0376433f810660cfe5c19987e66d2",
+      "supplier": "Organization: Wolfi",
+      "originator": "Organization: Wolfi",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:github/chainguard-dev/stereo@d8c1739b8ac0376433f810660cfe5c19987e66d2#apk-tools.yaml"
+        }
+      ],
+      "primaryPackagePurpose": "INSTALL"
+    },
+    {
+      "name": "alpine/apk-tools",
+      "SPDXID": "SPDXRef-Package-Source-gitlab.alpinelinux.org-alpine-apk-tools.git-v2.14.13-179aba9f22c2e22d45b21bd68e9478fe06d8896a-0",
+      "versionInfo": "v2.14.13",
+      "supplier": "Organization: Wolfi",
+      "originator": "Organization: Wolfi",
+      "downloadLocation": "https://tarballs.cgr.dev/a/30f50847291d6711d36ff8c57d76ddd27b0e5c6aa3579e2c270c40018c1297b4-179aba9f22c2e22d45b21bd68e9478fe06d8896a.tar.gz",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "GPL-2.0-only",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:generic/alpine%2Fapk-tools@v2.14.13?vcs_url=git%2Bhttps:%2F%2Fgitlab.alpinelinux.org%2Falpine%2Fapk-tools.git%40179aba9f22c2e22d45b21bd68e9478fe06d8896a"
+        }
+      ],
+      "primaryPackagePurpose": "SOURCE"
+    },
+    {
+      "name": "apk-tools",
+      "SPDXID": "SPDXRef-Package-apk-apk-tools-35176189001c245b",
+      "versionInfo": "2.14.13-r1",
+      "supplier": "Organization: chainguard",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "sourceInfo": "acquired package info from APK DB: /.PKGINFO",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "GPL-2.0-only",
+      "copyrightText": "NOASSERTION",
+      "description": "apk-tools (Wolfi package manager)",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:apk/wolfi/apk-tools@2.14.13-r1?arch=x86_64\u0026origin=apk-tools"
+        }
+      ]
+    },
+    {
+      "name": "apk-tools",
+      "SPDXID": "SPDXRef-DocumentRoot-Directory-apk-tools",
+      "versionInfo": "2.14.13-r1",
+      "supplier": "Organization: chainguard",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "primaryPackagePurpose": "FILE"
+    }
+  ],
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-Package-apk-apk-tools-2.14.13-r1",
+      "relatedSpdxElement": "SPDXRef-Package-Melange-apk-tools.yaml-d8c1739b8ac0376433f810660cfe5c19987e66d2",
+      "relationshipType": "DESCRIBED_BY"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-apk-apk-tools-2.14.13-r1",
+      "relatedSpdxElement": "SPDXRef-Package-Source-gitlab.alpinelinux.org-alpine-apk-tools.git-v2.14.13-179aba9f22c2e22d45b21bd68e9478fe06d8896a-0",
+      "relationshipType": "GENERATED_FROM"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relatedSpdxElement": "SPDXRef-Package-apk-apk-tools-2.14.13-r1",
+      "relationshipType": "DESCRIBES"
+    },
+    {
+      "spdxElementId": "SPDXRef-DocumentRoot-Directory-apk-tools",
+      "relatedSpdxElement": "SPDXRef-Package-apk-apk-tools-35176189001c245b",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-apk-apk-tools-2.14.13-r1",
+      "relatedSpdxElement": "SPDXRef-DocumentRoot-Directory-apk-tools",
+      "relationshipType": "CONTAINS"
+    }
+  ]
+}

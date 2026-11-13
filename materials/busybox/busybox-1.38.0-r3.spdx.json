@@ -1,0 +1,146 @@
+{
+  "spdxVersion": "SPDX-2.3",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "name": "apk-busybox-1.38.0-r3",
+  "documentNamespace": "https://spdx.org/spdxdocs/chainguard/build/7e468f60555adb62cbb34d24c00e63f3",
+  "creationInfo": {
+    "licenseListVersion": "3.22",
+    "creators": [
+      "Tool: chainguard-build (v0.62.0)",
+      "Organization: Chainguard, Inc"
+    ],
+    "created": "2026-10-09T04:58:57Z"
+  },
+  "packages": [
+    {
+      "name": "wolfi",
+      "SPDXID": "SPDXRef-OperatingSystem",
+      "supplier": "Organization: Wolfi",
+      "originator": "Organization: Wolfi",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "description": "Operating System",
+      "primaryPackagePurpose": "OPERATING-SYSTEM"
+    },
+    {
+      "name": "busybox",
+      "SPDXID": "SPDXRef-Package-apk-busybox-1.38.0-r3",
+      "versionInfo": "1.38.0-r3",
+      "supplier": "Organization: Wolfi",
+      "originator": "Organization: Wolfi",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "GPL-2.0-only",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:apk/wolfi/busybox@1.38.0-r3?arch=x86_64\u0026distro=wolfi"
+        }
+      ],
+      "primaryPackagePurpose": "APPLICATION"
+    },
+    {
+      "name": "busybox.yaml",
+      "SPDXID": "SPDXRef-Package-Melange-busybox.yaml-59d45eb49286129d8d21b2469befa3b55be4719b",
+      "versionInfo": "59d45eb49286129d8d21b2469befa3b55be4719b",
+      "supplier": "Organization: Wolfi",
+      "originator": "Organization: Wolfi",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:github/chainguard-dev/stereo@59d45eb49286129d8d21b2469befa3b55be4719b#busybox.yaml"
+        }
+      ],
+      "primaryPackagePurpose": "INSTALL"
+    },
+    {
+      "name": "busybox_mirror",
+      "SPDXID": "SPDXRef-Package-Source-github.com-vda-linux-busyboxC95mirror-1C9538C950-fc71374dfccd46448c62947269a35f1420d7ee28-0",
+      "versionInfo": "1_38_0",
+      "supplier": "Organization: Vda-Linux",
+      "originator": "Organization: Vda-Linux",
+      "downloadLocation": "https://github.com/vda-linux/busybox_mirror/archive/fc71374dfccd46448c62947269a35f1420d7ee28.tar.gz",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "GPL-2.0-only",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:github/vda-linux/busybox_mirror@1_38_0"
+        }
+      ],
+      "primaryPackagePurpose": "SOURCE"
+    },
+    {
+      "name": "busybox",
+      "SPDXID": "SPDXRef-Package-apk-busybox-053d10e1045ff32f",
+      "versionInfo": "1.38.0-r3",
+      "supplier": "Organization: chainguard",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "sourceInfo": "acquired package info from APK DB: /.PKGINFO",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "GPL-2.0-only",
+      "copyrightText": "NOASSERTION",
+      "description": "swiss-army knife for embedded systems",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:apk/wolfi/busybox@1.38.0-r3?arch=x86_64\u0026origin=busybox"
+        }
+      ]
+    },
+    {
+      "name": "busybox",
+      "SPDXID": "SPDXRef-DocumentRoot-Directory-busybox",
+      "versionInfo": "1.38.0-r3",
+      "supplier": "Organization: chainguard",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "primaryPackagePurpose": "FILE"
+    }
+  ],
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-Package-apk-busybox-1.38.0-r3",
+      "relatedSpdxElement": "SPDXRef-Package-Melange-busybox.yaml-59d45eb49286129d8d21b2469befa3b55be4719b",
+      "relationshipType": "DESCRIBED_BY"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-apk-busybox-1.38.0-r3",
+      "relatedSpdxElement": "SPDXRef-Package-Source-github.com-vda-linux-busyboxC95mirror-1C9538C950-fc71374dfccd46448c62947269a35f1420d7ee28-0",
+      "relationshipType": "GENERATED_FROM"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relatedSpdxElement": "SPDXRef-Package-apk-busybox-1.38.0-r3",
+      "relationshipType": "DESCRIBES"
+    },
+    {
+      "spdxElementId": "SPDXRef-DocumentRoot-Directory-busybox",
+      "relatedSpdxElement": "SPDXRef-Package-apk-busybox-053d10e1045ff32f",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-apk-busybox-1.38.0-r3",
+      "relatedSpdxElement": "SPDXRef-DocumentRoot-Directory-busybox",
+      "relationshipType": "CONTAINS"
+    }
+  ]
+}

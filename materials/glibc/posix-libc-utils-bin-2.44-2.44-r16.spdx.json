@@ -1,0 +1,156 @@
+{
+  "spdxVersion": "SPDX-2.3",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "name": "apk-posix-libc-utils-bin-2.44-2.44-r16",
+  "documentNamespace": "https://spdx.org/spdxdocs/chainguard/build/bda44d08af4357c482bfaf44e34321f2",
+  "creationInfo": {
+    "licenseListVersion": "3.22",
+    "creators": [
+      "Tool: chainguard-build (v0.63.2)",
+      "Organization: Chainguard, Inc"
+    ],
+    "created": "2026-11-10T15:49:14Z"
+  },
+  "packages": [
+    {
+      "name": "wolfi",
+      "SPDXID": "SPDXRef-OperatingSystem",
+      "supplier": "Organization: Wolfi",
+      "originator": "Organization: Wolfi",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "description": "Operating System",
+      "primaryPackagePurpose": "OPERATING-SYSTEM"
+    },
+    {
+      "name": "posix-libc-utils-bin-2.44",
+      "SPDXID": "SPDXRef-Package-apk-posix-libc-utils-bin-2.44-2.44-r16",
+      "versionInfo": "2.44-r16",
+      "supplier": "Organization: Wolfi",
+      "originator": "Organization: Wolfi",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "LGPL-2.1-or-later",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:apk/wolfi/posix-libc-utils-bin-2.44@2.44-r16?arch=x86_64\u0026distro=wolfi"
+        },
+        {
+          "referenceCategory": "SECURITY",
+          "referenceType": "cpe23Type",
+          "referenceLocator": "cpe:2.3:a:gnu:glibc:2.44:*:*:*:*:*:*:*"
+        }
+      ],
+      "primaryPackagePurpose": "APPLICATION"
+    },
+    {
+      "name": "glibc-2.44.yaml",
+      "SPDXID": "SPDXRef-Package-Melange-glibc-2.44.yaml-69c2b75e0711c38be3c5881e3a141667ccf54341",
+      "versionInfo": "69c2b75e0711c38be3c5881e3a141667ccf54341",
+      "supplier": "Organization: Wolfi",
+      "originator": "Organization: Wolfi",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:github/chainguard-dev/stereo@69c2b75e0711c38be3c5881e3a141667ccf54341#glibc-2.44.yaml"
+        }
+      ],
+      "primaryPackagePurpose": "INSTALL"
+    },
+    {
+      "name": "gnutools/glibc",
+      "SPDXID": "SPDXRef-Package-Source-gitlab.com-gnutools-glibc.git-release-2.44-master-47e2b570410fab606de29f550534a721184852c3-0",
+      "versionInfo": "47e2b570410fab606de29f550534a721184852c3",
+      "supplier": "Organization: Wolfi",
+      "originator": "Organization: Wolfi",
+      "downloadLocation": "https://tarballs.cgr.dev/g/9390037ac2ec26cf74ce7c6709d852e0ce67205355e04fbdb9b9549f47a5bb40-47e2b570410fab606de29f550534a721184852c3.tar.gz",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "LGPL-2.1-or-later",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:generic/gnutools%2Fglibc@47e2b570410fab606de29f550534a721184852c3?vcs_url=git%2Bhttps:%2F%2Fgitlab.com%2Fgnutools%2Fglibc.git%4047e2b570410fab606de29f550534a721184852c3"
+        }
+      ],
+      "primaryPackagePurpose": "SOURCE"
+    },
+    {
+      "name": "posix-libc-utils-bin-2.44",
+      "SPDXID": "SPDXRef-Package-apk-posix-libc-utils-bin-2.44-5dd9141f98ef7d11",
+      "versionInfo": "2.44-r16",
+      "supplier": "Organization: chainguard",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "sourceInfo": "acquired package info from APK DB: /.PKGINFO",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "LGPL-2.1-or-later",
+      "copyrightText": "NOASSERTION",
+      "description": "POSIX XCU utilities included with the C library (excluding ldd)",
+      "externalRefs": [
+        {
+          "referenceCategory": "SECURITY",
+          "referenceType": "cpe23Type",
+          "referenceLocator": "cpe:2.3:a:gnu:glibc:2.44-r16:*:*:*:*:*:*:*"
+        },
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:apk/wolfi/posix-libc-utils-bin-2.44@2.44-r16?arch=x86_64\u0026origin=glibc-2.44"
+        }
+      ]
+    },
+    {
+      "name": "posix-libc-utils-bin-2.44",
+      "SPDXID": "SPDXRef-DocumentRoot-Directory-posix-libc-utils-bin-2.44",
+      "versionInfo": "2.44-r16",
+      "supplier": "Organization: chainguard",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "primaryPackagePurpose": "FILE"
+    }
+  ],
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-Package-apk-posix-libc-utils-bin-2.44-2.44-r16",
+      "relatedSpdxElement": "SPDXRef-Package-Melange-glibc-2.44.yaml-69c2b75e0711c38be3c5881e3a141667ccf54341",
+      "relationshipType": "DESCRIBED_BY"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-apk-posix-libc-utils-bin-2.44-2.44-r16",
+      "relatedSpdxElement": "SPDXRef-Package-Source-gitlab.com-gnutools-glibc.git-release-2.44-master-47e2b570410fab606de29f550534a721184852c3-0",
+      "relationshipType": "GENERATED_FROM"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relatedSpdxElement": "SPDXRef-Package-apk-posix-libc-utils-bin-2.44-2.44-r16",
+      "relationshipType": "DESCRIBES"
+    },
+    {
+      "spdxElementId": "SPDXRef-DocumentRoot-Directory-posix-libc-utils-bin-2.44",
+      "relatedSpdxElement": "SPDXRef-Package-apk-posix-libc-utils-bin-2.44-5dd9141f98ef7d11",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-apk-posix-libc-utils-bin-2.44-2.44-r16",
+      "relatedSpdxElement": "SPDXRef-DocumentRoot-Directory-posix-libc-utils-bin-2.44",
+      "relationshipType": "CONTAINS"
+    }
+  ]
+}

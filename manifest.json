@@ -1,0 +1,908 @@
+{
+  "schema_version": 1,
+  "release_status": "incomplete-source-evidence-prerelease",
+  "image_config_digest": "sha256:820a45f7dd1a96ad96a29f47602d83fc1ffad3107c50ca62f6f965d518fb37ee",
+  "application_commit": "404d7b0ce3a491216f151431996bde1a9015eb25",
+  "assessment_run": "https://github.com/venntier/vt_analytics/actions/runs/43279258014",
+  "scope": "20 pending third-party runtime packages from the assessed image. Not the complete image inventory. No proprietary application source included.",
+  "packages": [
+    {
+      "name": "libgcc",
+      "version": "16.2.0-r3",
+      "purl": "pkg:apk/wolfi/libgcc@16.2.0-r3?arch=x86_64&distro=wolfi-20230201&upstream=gcc",
+      "declared_licenses": [
+        "GPL-3.0-or-later WITH GCC-exception-3.1"
+      ],
+      "source_group": "gcc",
+      "status": "pending-complete-corresponding-source-validation",
+      "remaining_work": "Upstream revision, GPLv3 text, GCC Runtime Library Exception 3.1 and a version-matched public recipe/patch are retained. A complete corresponding-source delivery bundle (including verified distro modifications and build materials) is not yet assembled; notices alone do not satisfy this gate.",
+      "upstream_references": [
+        {
+          "url": "https://raw.githubusercontent.com/wolfi-dev/os/b05894c521b790b03b8f2dfe1bc573f7e31acb44/gcc.yaml",
+          "sha256": "61497fe7b811665545e9a4a7e09b182de8e42731f23e676dd2e5903620fbcc11"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/wolfi-dev/os/b05894c521b790b03b8f2dfe1bc573f7e31acb44/gcc/optc-gen-awk-gawk-compat.patch",
+          "sha256": "d5159ddde115f8bd47a0bfda87a388bda7edd2218aa4c1c1b74f942fb40431f0"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/gcc-mirror/gcc/78d4ac73dd391005b895a6148cd9831e28e1208b/COPYING.RUNTIME",
+          "sha256": "9d6b43ce4d8de0c878bf16b54d8e7a10d9bd42b75178153e3af6a815bdc90f74"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/gcc-mirror/gcc/78d4ac73dd391005b895a6148cd9831e28e1208b/COPYING3",
+          "sha256": "8ceb4b9ee5adedde47b31e975c1d90c73ad27b6b165a1dcd80c7c545eb65b903"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/gcc-mirror/gcc/78d4ac73dd391005b895a6148cd9831e28e1208b/libgcc/libgcc2.c",
+          "sha256": "83e1247be3f78dd8c70d32c4df95f04161c0f47838cf62be8cdb5b9eb2f06c34"
+        }
+      ]
+    },
+    {
+      "name": "libstdc++",
+      "version": "16.2.0-r3",
+      "purl": "pkg:apk/wolfi/libstdc%2B%2B@16.2.0-r3?arch=x86_64&distro=wolfi-20230201&upstream=gcc",
+      "declared_licenses": [
+        "GPL-3.0-or-later WITH GCC-exception-3.1"
+      ],
+      "source_group": "gcc",
+      "status": "pending-complete-corresponding-source-validation",
+      "remaining_work": "Upstream revision, GPLv3 text, GCC Runtime Library Exception 3.1 and a version-matched public recipe/patch are retained. A complete corresponding-source delivery bundle (including verified distro modifications and build materials) is not yet assembled; notices alone do not satisfy this gate.",
+      "upstream_references": [
+        {
+          "url": "https://raw.githubusercontent.com/wolfi-dev/os/b05894c521b790b03b8f2dfe1bc573f7e31acb44/gcc.yaml",
+          "sha256": "61497fe7b811665545e9a4a7e09b182de8e42731f23e676dd2e5903620fbcc11"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/wolfi-dev/os/b05894c521b790b03b8f2dfe1bc573f7e31acb44/gcc/optc-gen-awk-gawk-compat.patch",
+          "sha256": "d5159ddde115f8bd47a0bfda87a388bda7edd2218aa4c1c1b74f942fb40431f0"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/gcc-mirror/gcc/78d4ac73dd391005b895a6148cd9831e28e1208b/COPYING.RUNTIME",
+          "sha256": "9d6b43ce4d8de0c878bf16b54d8e7a10d9bd42b75178153e3af6a815bdc90f74"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/gcc-mirror/gcc/78d4ac73dd391005b895a6148cd9831e28e1208b/COPYING3",
+          "sha256": "8ceb4b9ee5adedde47b31e975c1d90c73ad27b6b165a1dcd80c7c545eb65b903"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/gcc-mirror/gcc/78d4ac73dd391005b895a6148cd9831e28e1208b/libgcc/libgcc2.c",
+          "sha256": "83e1247be3f78dd8c70d32c4df95f04161c0f47838cf62be8cdb5b9eb2f06c34"
+        }
+      ]
+    },
+    {
+      "name": "glibc-2.44",
+      "version": "2.44-r16",
+      "purl": "pkg:apk/wolfi/glibc-2.44@2.44-r16?arch=x86_64&distro=wolfi-20230201",
+      "declared_licenses": [
+        "LGPL-2.1-or-later"
+      ],
+      "source_group": "glibc",
+      "status": "pending-complete-corresponding-source-validation",
+      "remaining_work": "Exact upstream source archive and version-matched public recipe/patches retained. Original recipe revision is unavailable (HTTP 404); original build-input equivalence and LGPL linking/replacement conditions remain unverified.",
+      "upstream_references": [
+        {
+          "url": "https://raw.githubusercontent.com/wolfi-dev/os/b05894c521b790b03b8f2dfe1bc573f7e31acb44/glibc-2.44/0001-Link-startup-files-without-package-metadata.patch",
+          "sha256": "4fb8772021dcd5f24941b4d031d10b30f81b48d885f71889c669933e5a51d142"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/wolfi-dev/os/b05894c521b790b03b8f2dfe1bc573f7e31acb44/glibc-2.44/CVE-2026-84243.patch",
+          "sha256": "c79c8e500bdfff56462315aed6e0e1b2c139533d707c79c60ef0b318cc693706"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/wolfi-dev/os/b05894c521b790b03b8f2dfe1bc573f7e31acb44/glibc-2.44/allowed-failures.txt",
+          "sha256": "5f46e1d2f6ab2b7797c7af9f6a28e33dfd879382890adc11ac613c19992d66ac"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/wolfi-dev/os/b05894c521b790b03b8f2dfe1bc573f7e31acb44/glibc-2.44/compatibility-gate",
+          "sha256": "c05aa31da812d051753e7932a45d32d3c75168a4dbf4ffbecc31744be3c14bb6"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/wolfi-dev/os/b05894c521b790b03b8f2dfe1bc573f7e31acb44/glibc-2.44/fdo.patch",
+          "sha256": "a187de88cb3143c440b33488793ba6dcae5aeb9710d081c587defaba0abb06b4"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/wolfi-dev/os/b05894c521b790b03b8f2dfe1bc573f7e31acb44/glibc-2.44/fix-allowed-failures-escaping.patch",
+          "sha256": "d6a7c6a1affc812ce7f0439645bf4311d26572c73284740baeaa6e0c486bb6f3"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/wolfi-dev/os/b05894c521b790b03b8f2dfe1bc573f7e31acb44/glibc-2.44/ldconfig-commit.sh",
+          "sha256": "3b7637d6b5e83fe60045d8bd6155b971503ba03f447f3670062368da8916227e"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/wolfi-dev/os/b05894c521b790b03b8f2dfe1bc573f7e31acb44/glibc-2.44/vendor/ld.so.conf",
+          "sha256": "27d7ebd402e1b9a20fd3a0663ccc10e1b1feff2d9dfb1ad7dd12bb76cfe0880a"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/wolfi-dev/os/b05894c521b790b03b8f2dfe1bc573f7e31acb44/glibc-2.44/vendor/ld.so.conf.d/libc.conf",
+          "sha256": "bb79854205e3e21969d710c2a2b8ea262a7627852f2226cdfe1cb7c72feb7d2d"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/wolfi-dev/os/b05894c521b790b03b8f2dfe1bc573f7e31acb44/glibc-2.44.yaml",
+          "sha256": "67a4267c592cc743109ae0f605a067df693ceec5ddcbd172338fb5d76ff3397b"
+        },
+        {
+          "url": "https://tarballs.cgr.dev/g/9390037ac2ec26cf74ce7c6709d852e0ce67205355e04fbdb9b9549f47a5bb40-47e2b570410fab606de29f550534a721184852c3.tar.gz",
+          "sha256": "111da63bbfe6bc207e4991baf0a75a4ba43cff6efd69cd507cc62f40fb324eb3"
+        },
+        {
+          "url": "https://tarballs.cgr.dev/g/9390037ac2ec26cf74ce7c6709d852e0ce67205355e04fbdb9b9549f47a5bb40-47e2b570410fab606de29f550534a721184852c3.tar.gz",
+          "sha256": "b22a69aa3f80a5201818c66cb0df0f25f9fa13cf5861b0093a058dbd12d50dce"
+        },
+        {
+          "url": "https://tarballs.cgr.dev/g/9390037ac2ec26cf74ce7c6709d852e0ce67205355e04fbdb9b9549f47a5bb40-47e2b570410fab606de29f550534a721184852c3.tar.gz",
+          "sha256": "20e50fe7aae3e56378ebf0417d9de904f55a0e61e4df315333e632a4d3555d95"
+        },
+        {
+          "url": "https://tarballs.cgr.dev/g/9390037ac2ec26cf74ce7c6709d852e0ce67205355e04fbdb9b9549f47a5bb40-47e2b570410fab606de29f550534a721184852c3.tar.gz",
+          "sha256": "edaef632cbb643e4e7a221717a6c441a4c1a7c918e6e4d56debc3d8739b233f6"
+        },
+        {
+          "url": "https://tarballs.cgr.dev/g/9390037ac2ec26cf74ce7c6709d852e0ce67205355e04fbdb9b9549f47a5bb40-47e2b570410fab606de29f550534a721184852c3.tar.gz",
+          "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
+        }
+      ]
+    },
+    {
+      "name": "glibc-2.44-locale-posix",
+      "version": "2.44-r16",
+      "purl": "pkg:apk/wolfi/glibc-2.44-locale-posix@2.44-r16?arch=x86_64&distro=wolfi-20230201&upstream=glibc-2.44",
+      "declared_licenses": [
+        "LGPL-2.1-or-later"
+      ],
+      "source_group": "glibc",
+      "status": "pending-complete-corresponding-source-validation",
+      "remaining_work": "Exact upstream source archive and version-matched public recipe/patches retained. Original recipe revision is unavailable (HTTP 404); original build-input equivalence and LGPL linking/replacement conditions remain unverified.",
+      "upstream_references": [
+        {
+          "url": "https://raw.githubusercontent.com/wolfi-dev/os/b05894c521b790b03b8f2dfe1bc573f7e31acb44/glibc-2.44/0001-Link-startup-files-without-package-metadata.patch",
+          "sha256": "4fb8772021dcd5f24941b4d031d10b30f81b48d885f71889c669933e5a51d142"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/wolfi-dev/os/b05894c521b790b03b8f2dfe1bc573f7e31acb44/glibc-2.44/CVE-2026-84243.patch",
+          "sha256": "c79c8e500bdfff56462315aed6e0e1b2c139533d707c79c60ef0b318cc693706"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/wolfi-dev/os/b05894c521b790b03b8f2dfe1bc573f7e31acb44/glibc-2.44/allowed-failures.txt",
+          "sha256": "5f46e1d2f6ab2b7797c7af9f6a28e33dfd879382890adc11ac613c19992d66ac"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/wolfi-dev/os/b05894c521b790b03b8f2dfe1bc573f7e31acb44/glibc-2.44/compatibility-gate",
+          "sha256": "c05aa31da812d051753e7932a45d32d3c75168a4dbf4ffbecc31744be3c14bb6"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/wolfi-dev/os/b05894c521b790b03b8f2dfe1bc573f7e31acb44/glibc-2.44/fdo.patch",
+          "sha256": "a187de88cb3143c440b33488793ba6dcae5aeb9710d081c587defaba0abb06b4"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/wolfi-dev/os/b05894c521b790b03b8f2dfe1bc573f7e31acb44/glibc-2.44/fix-allowed-failures-escaping.patch",
+          "sha256": "d6a7c6a1affc812ce7f0439645bf4311d26572c73284740baeaa6e0c486bb6f3"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/wolfi-dev/os/b05894c521b790b03b8f2dfe1bc573f7e31acb44/glibc-2.44/ldconfig-commit.sh",
+          "sha256": "3b7637d6b5e83fe60045d8bd6155b971503ba03f447f3670062368da8916227e"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/wolfi-dev/os/b05894c521b790b03b8f2dfe1bc573f7e31acb44/glibc-2.44/vendor/ld.so.conf",
+          "sha256": "27d7ebd402e1b9a20fd3a0663ccc10e1b1feff2d9dfb1ad7dd12bb76cfe0880a"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/wolfi-dev/os/b05894c521b790b03b8f2dfe1bc573f7e31acb44/glibc-2.44/vendor/ld.so.conf.d/libc.conf",
+          "sha256": "bb79854205e3e21969d710c2a2b8ea262a7627852f2226cdfe1cb7c72feb7d2d"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/wolfi-dev/os/b05894c521b790b03b8f2dfe1bc573f7e31acb44/glibc-2.44.yaml",
+          "sha256": "67a4267c592cc743109ae0f605a067df693ceec5ddcbd172338fb5d76ff3397b"
+        },
+        {
+          "url": "https://tarballs.cgr.dev/g/9390037ac2ec26cf74ce7c6709d852e0ce67205355e04fbdb9b9549f47a5bb40-47e2b570410fab606de29f550534a721184852c3.tar.gz",
+          "sha256": "111da63bbfe6bc207e4991baf0a75a4ba43cff6efd69cd507cc62f40fb324eb3"
+        },
+        {
+          "url": "https://tarballs.cgr.dev/g/9390037ac2ec26cf74ce7c6709d852e0ce67205355e04fbdb9b9549f47a5bb40-47e2b570410fab606de29f550534a721184852c3.tar.gz",
+          "sha256": "b22a69aa3f80a5201818c66cb0df0f25f9fa13cf5861b0093a058dbd12d50dce"
+        },
+        {
+          "url": "https://tarballs.cgr.dev/g/9390037ac2ec26cf74ce7c6709d852e0ce67205355e04fbdb9b9549f47a5bb40-47e2b570410fab606de29f550534a721184852c3.tar.gz",
+          "sha256": "20e50fe7aae3e56378ebf0417d9de904f55a0e61e4df315333e632a4d3555d95"
+        },
+        {
+          "url": "https://tarballs.cgr.dev/g/9390037ac2ec26cf74ce7c6709d852e0ce67205355e04fbdb9b9549f47a5bb40-47e2b570410fab606de29f550534a721184852c3.tar.gz",
+          "sha256": "edaef632cbb643e4e7a221717a6c441a4c1a7c918e6e4d56debc3d8739b233f6"
+        },
+        {
+          "url": "https://tarballs.cgr.dev/g/9390037ac2ec26cf74ce7c6709d852e0ce67205355e04fbdb9b9549f47a5bb40-47e2b570410fab606de29f550534a721184852c3.tar.gz",
+          "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
+        }
+      ]
+    },
+    {
+      "name": "ld-linux-2.44",
+      "version": "2.44-r16",
+      "purl": "pkg:apk/wolfi/ld-linux-2.44@2.44-r16?arch=x86_64&distro=wolfi-20230201&upstream=glibc-2.44",
+      "declared_licenses": [
+        "LGPL-2.1-or-later"
+      ],
+      "source_group": "glibc",
+      "status": "pending-complete-corresponding-source-validation",
+      "remaining_work": "Exact upstream source archive and version-matched public recipe/patches retained. Original recipe revision is unavailable (HTTP 404); original build-input equivalence and LGPL linking/replacement conditions remain unverified.",
+      "upstream_references": [
+        {
+          "url": "https://raw.githubusercontent.com/wolfi-dev/os/b05894c521b790b03b8f2dfe1bc573f7e31acb44/glibc-2.44/0001-Link-startup-files-without-package-metadata.patch",
+          "sha256": "4fb8772021dcd5f24941b4d031d10b30f81b48d885f71889c669933e5a51d142"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/wolfi-dev/os/b05894c521b790b03b8f2dfe1bc573f7e31acb44/glibc-2.44/CVE-2026-84243.patch",
+          "sha256": "c79c8e500bdfff56462315aed6e0e1b2c139533d707c79c60ef0b318cc693706"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/wolfi-dev/os/b05894c521b790b03b8f2dfe1bc573f7e31acb44/glibc-2.44/allowed-failures.txt",
+          "sha256": "5f46e1d2f6ab2b7797c7af9f6a28e33dfd879382890adc11ac613c19992d66ac"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/wolfi-dev/os/b05894c521b790b03b8f2dfe1bc573f7e31acb44/glibc-2.44/compatibility-gate",
+          "sha256": "c05aa31da812d051753e7932a45d32d3c75168a4dbf4ffbecc31744be3c14bb6"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/wolfi-dev/os/b05894c521b790b03b8f2dfe1bc573f7e31acb44/glibc-2.44/fdo.patch",
+          "sha256": "a187de88cb3143c440b33488793ba6dcae5aeb9710d081c587defaba0abb06b4"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/wolfi-dev/os/b05894c521b790b03b8f2dfe1bc573f7e31acb44/glibc-2.44/fix-allowed-failures-escaping.patch",
+          "sha256": "d6a7c6a1affc812ce7f0439645bf4311d26572c73284740baeaa6e0c486bb6f3"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/wolfi-dev/os/b05894c521b790b03b8f2dfe1bc573f7e31acb44/glibc-2.44/ldconfig-commit.sh",
+          "sha256": "3b7637d6b5e83fe60045d8bd6155b971503ba03f447f3670062368da8916227e"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/wolfi-dev/os/b05894c521b790b03b8f2dfe1bc573f7e31acb44/glibc-2.44/vendor/ld.so.conf",
+          "sha256": "27d7ebd402e1b9a20fd3a0663ccc10e1b1feff2d9dfb1ad7dd12bb76cfe0880a"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/wolfi-dev/os/b05894c521b790b03b8f2dfe1bc573f7e31acb44/glibc-2.44/vendor/ld.so.conf.d/libc.conf",
+          "sha256": "bb79854205e3e21969d710c2a2b8ea262a7627852f2226cdfe1cb7c72feb7d2d"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/wolfi-dev/os/b05894c521b790b03b8f2dfe1bc573f7e31acb44/glibc-2.44.yaml",
+          "sha256": "67a4267c592cc743109ae0f605a067df693ceec5ddcbd172338fb5d76ff3397b"
+        },
+        {
+          "url": "https://tarballs.cgr.dev/g/9390037ac2ec26cf74ce7c6709d852e0ce67205355e04fbdb9b9549f47a5bb40-47e2b570410fab606de29f550534a721184852c3.tar.gz",
+          "sha256": "111da63bbfe6bc207e4991baf0a75a4ba43cff6efd69cd507cc62f40fb324eb3"
+        },
+        {
+          "url": "https://tarballs.cgr.dev/g/9390037ac2ec26cf74ce7c6709d852e0ce67205355e04fbdb9b9549f47a5bb40-47e2b570410fab606de29f550534a721184852c3.tar.gz",
+          "sha256": "b22a69aa3f80a5201818c66cb0df0f25f9fa13cf5861b0093a058dbd12d50dce"
+        },
+        {
+          "url": "https://tarballs.cgr.dev/g/9390037ac2ec26cf74ce7c6709d852e0ce67205355e04fbdb9b9549f47a5bb40-47e2b570410fab606de29f550534a721184852c3.tar.gz",
+          "sha256": "20e50fe7aae3e56378ebf0417d9de904f55a0e61e4df315333e632a4d3555d95"
+        },
+        {
+          "url": "https://tarballs.cgr.dev/g/9390037ac2ec26cf74ce7c6709d852e0ce67205355e04fbdb9b9549f47a5bb40-47e2b570410fab606de29f550534a721184852c3.tar.gz",
+          "sha256": "edaef632cbb643e4e7a221717a6c441a4c1a7c918e6e4d56debc3d8739b233f6"
+        },
+        {
+          "url": "https://tarballs.cgr.dev/g/9390037ac2ec26cf74ce7c6709d852e0ce67205355e04fbdb9b9549f47a5bb40-47e2b570410fab606de29f550534a721184852c3.tar.gz",
+          "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
+        }
+      ]
+    },
+    {
+      "name": "libcrypt1-2.44",
+      "version": "2.44-r16",
+      "purl": "pkg:apk/wolfi/libcrypt1-2.44@2.44-r16?arch=x86_64&distro=wolfi-20230201&upstream=glibc-2.44",
+      "declared_licenses": [
+        "LGPL-2.1-or-later"
+      ],
+      "source_group": "glibc",
+      "status": "pending-complete-corresponding-source-validation",
+      "remaining_work": "Exact upstream source archive and version-matched public recipe/patches retained. Original recipe revision is unavailable (HTTP 404); original build-input equivalence and LGPL linking/replacement conditions remain unverified.",
+      "upstream_references": [
+        {
+          "url": "https://raw.githubusercontent.com/wolfi-dev/os/b05894c521b790b03b8f2dfe1bc573f7e31acb44/glibc-2.44/0001-Link-startup-files-without-package-metadata.patch",
+          "sha256": "4fb8772021dcd5f24941b4d031d10b30f81b48d885f71889c669933e5a51d142"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/wolfi-dev/os/b05894c521b790b03b8f2dfe1bc573f7e31acb44/glibc-2.44/CVE-2026-84243.patch",
+          "sha256": "c79c8e500bdfff56462315aed6e0e1b2c139533d707c79c60ef0b318cc693706"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/wolfi-dev/os/b05894c521b790b03b8f2dfe1bc573f7e31acb44/glibc-2.44/allowed-failures.txt",
+          "sha256": "5f46e1d2f6ab2b7797c7af9f6a28e33dfd879382890adc11ac613c19992d66ac"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/wolfi-dev/os/b05894c521b790b03b8f2dfe1bc573f7e31acb44/glibc-2.44/compatibility-gate",
+          "sha256": "c05aa31da812d051753e7932a45d32d3c75168a4dbf4ffbecc31744be3c14bb6"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/wolfi-dev/os/b05894c521b790b03b8f2dfe1bc573f7e31acb44/glibc-2.44/fdo.patch",
+          "sha256": "a187de88cb3143c440b33488793ba6dcae5aeb9710d081c587defaba0abb06b4"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/wolfi-dev/os/b05894c521b790b03b8f2dfe1bc573f7e31acb44/glibc-2.44/fix-allowed-failures-escaping.patch",
+          "sha256": "d6a7c6a1affc812ce7f0439645bf4311d26572c73284740baeaa6e0c486bb6f3"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/wolfi-dev/os/b05894c521b790b03b8f2dfe1bc573f7e31acb44/glibc-2.44/ldconfig-commit.sh",
+          "sha256": "3b7637d6b5e83fe60045d8bd6155b971503ba03f447f3670062368da8916227e"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/wolfi-dev/os/b05894c521b790b03b8f2dfe1bc573f7e31acb44/glibc-2.44/vendor/ld.so.conf",
+          "sha256": "27d7ebd402e1b9a20fd3a0663ccc10e1b1feff2d9dfb1ad7dd12bb76cfe0880a"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/wolfi-dev/os/b05894c521b790b03b8f2dfe1bc573f7e31acb44/glibc-2.44/vendor/ld.so.conf.d/libc.conf",
+          "sha256": "bb79854205e3e21969d710c2a2b8ea262a7627852f2226cdfe1cb7c72feb7d2d"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/wolfi-dev/os/b05894c521b790b03b8f2dfe1bc573f7e31acb44/glibc-2.44.yaml",
+          "sha256": "67a4267c592cc743109ae0f605a067df693ceec5ddcbd172338fb5d76ff3397b"
+        },
+        {
+          "url": "https://tarballs.cgr.dev/g/9390037ac2ec26cf74ce7c6709d852e0ce67205355e04fbdb9b9549f47a5bb40-47e2b570410fab606de29f550534a721184852c3.tar.gz",
+          "sha256": "111da63bbfe6bc207e4991baf0a75a4ba43cff6efd69cd507cc62f40fb324eb3"
+        },
+        {
+          "url": "https://tarballs.cgr.dev/g/9390037ac2ec26cf74ce7c6709d852e0ce67205355e04fbdb9b9549f47a5bb40-47e2b570410fab606de29f550534a721184852c3.tar.gz",
+          "sha256": "b22a69aa3f80a5201818c66cb0df0f25f9fa13cf5861b0093a058dbd12d50dce"
+        },
+        {
+          "url": "https://tarballs.cgr.dev/g/9390037ac2ec26cf74ce7c6709d852e0ce67205355e04fbdb9b9549f47a5bb40-47e2b570410fab606de29f550534a721184852c3.tar.gz",
+          "sha256": "20e50fe7aae3e56378ebf0417d9de904f55a0e61e4df315333e632a4d3555d95"
+        },
+        {
+          "url": "https://tarballs.cgr.dev/g/9390037ac2ec26cf74ce7c6709d852e0ce67205355e04fbdb9b9549f47a5bb40-47e2b570410fab606de29f550534a721184852c3.tar.gz",
+          "sha256": "edaef632cbb643e4e7a221717a6c441a4c1a7c918e6e4d56debc3d8739b233f6"
+        },
+        {
+          "url": "https://tarballs.cgr.dev/g/9390037ac2ec26cf74ce7c6709d852e0ce67205355e04fbdb9b9549f47a5bb40-47e2b570410fab606de29f550534a721184852c3.tar.gz",
+          "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
+        }
+      ]
+    },
+    {
+      "name": "posix-libc-utils-2.44",
+      "version": "2.44-r16",
+      "purl": "pkg:apk/wolfi/posix-libc-utils-2.44@2.44-r16?arch=x86_64&distro=wolfi-20230201&upstream=glibc-2.44",
+      "declared_licenses": [
+        "LGPL-2.1-or-later"
+      ],
+      "source_group": "glibc",
+      "status": "pending-complete-corresponding-source-validation",
+      "remaining_work": "Exact upstream source archive and version-matched public recipe/patches retained. Original recipe revision is unavailable (HTTP 404); original build-input equivalence and LGPL linking/replacement conditions remain unverified.",
+      "upstream_references": [
+        {
+          "url": "https://raw.githubusercontent.com/wolfi-dev/os/b05894c521b790b03b8f2dfe1bc573f7e31acb44/glibc-2.44/0001-Link-startup-files-without-package-metadata.patch",
+          "sha256": "4fb8772021dcd5f24941b4d031d10b30f81b48d885f71889c669933e5a51d142"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/wolfi-dev/os/b05894c521b790b03b8f2dfe1bc573f7e31acb44/glibc-2.44/CVE-2026-84243.patch",
+          "sha256": "c79c8e500bdfff56462315aed6e0e1b2c139533d707c79c60ef0b318cc693706"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/wolfi-dev/os/b05894c521b790b03b8f2dfe1bc573f7e31acb44/glibc-2.44/allowed-failures.txt",
+          "sha256": "5f46e1d2f6ab2b7797c7af9f6a28e33dfd879382890adc11ac613c19992d66ac"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/wolfi-dev/os/b05894c521b790b03b8f2dfe1bc573f7e31acb44/glibc-2.44/compatibility-gate",
+          "sha256": "c05aa31da812d051753e7932a45d32d3c75168a4dbf4ffbecc31744be3c14bb6"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/wolfi-dev/os/b05894c521b790b03b8f2dfe1bc573f7e31acb44/glibc-2.44/fdo.patch",
+          "sha256": "a187de88cb3143c440b33488793ba6dcae5aeb9710d081c587defaba0abb06b4"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/wolfi-dev/os/b05894c521b790b03b8f2dfe1bc573f7e31acb44/glibc-2.44/fix-allowed-failures-escaping.patch",
+          "sha256": "d6a7c6a1affc812ce7f0439645bf4311d26572c73284740baeaa6e0c486bb6f3"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/wolfi-dev/os/b05894c521b790b03b8f2dfe1bc573f7e31acb44/glibc-2.44/ldconfig-commit.sh",
+          "sha256": "3b7637d6b5e83fe60045d8bd6155b971503ba03f447f3670062368da8916227e"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/wolfi-dev/os/b05894c521b790b03b8f2dfe1bc573f7e31acb44/glibc-2.44/vendor/ld.so.conf",
+          "sha256": "27d7ebd402e1b9a20fd3a0663ccc10e1b1feff2d9dfb1ad7dd12bb76cfe0880a"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/wolfi-dev/os/b05894c521b790b03b8f2dfe1bc573f7e31acb44/glibc-2.44/vendor/ld.so.conf.d/libc.conf",
+          "sha256": "bb79854205e3e21969d710c2a2b8ea262a7627852f2226cdfe1cb7c72feb7d2d"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/wolfi-dev/os/b05894c521b790b03b8f2dfe1bc573f7e31acb44/glibc-2.44.yaml",
+          "sha256": "67a4267c592cc743109ae0f605a067df693ceec5ddcbd172338fb5d76ff3397b"
+        },
+        {
+          "url": "https://tarballs.cgr.dev/g/9390037ac2ec26cf74ce7c6709d852e0ce67205355e04fbdb9b9549f47a5bb40-47e2b570410fab606de29f550534a721184852c3.tar.gz",
+          "sha256": "111da63bbfe6bc207e4991baf0a75a4ba43cff6efd69cd507cc62f40fb324eb3"
+        },
+        {
+          "url": "https://tarballs.cgr.dev/g/9390037ac2ec26cf74ce7c6709d852e0ce67205355e04fbdb9b9549f47a5bb40-47e2b570410fab606de29f550534a721184852c3.tar.gz",
+          "sha256": "b22a69aa3f80a5201818c66cb0df0f25f9fa13cf5861b0093a058dbd12d50dce"
+        },
+        {
+          "url": "https://tarballs.cgr.dev/g/9390037ac2ec26cf74ce7c6709d852e0ce67205355e04fbdb9b9549f47a5bb40-47e2b570410fab606de29f550534a721184852c3.tar.gz",
+          "sha256": "20e50fe7aae3e56378ebf0417d9de904f55a0e61e4df315333e632a4d3555d95"
+        },
+        {
+          "url": "https://tarballs.cgr.dev/g/9390037ac2ec26cf74ce7c6709d852e0ce67205355e04fbdb9b9549f47a5bb40-47e2b570410fab606de29f550534a721184852c3.tar.gz",
+          "sha256": "edaef632cbb643e4e7a221717a6c441a4c1a7c918e6e4d56debc3d8739b233f6"
+        },
+        {
+          "url": "https://tarballs.cgr.dev/g/9390037ac2ec26cf74ce7c6709d852e0ce67205355e04fbdb9b9549f47a5bb40-47e2b570410fab606de29f550534a721184852c3.tar.gz",
+          "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
+        }
+      ]
+    },
+    {
+      "name": "posix-libc-utils-bin-2.44",
+      "version": "2.44-r16",
+      "purl": "pkg:apk/wolfi/posix-libc-utils-bin-2.44@2.44-r16?arch=x86_64&distro=wolfi-20230201&upstream=glibc-2.44",
+      "declared_licenses": [
+        "LGPL-2.1-or-later"
+      ],
+      "source_group": "glibc",
+      "status": "pending-complete-corresponding-source-validation",
+      "remaining_work": "Exact upstream source archive and version-matched public recipe/patches retained. Original recipe revision is unavailable (HTTP 404); original build-input equivalence and LGPL linking/replacement conditions remain unverified.",
+      "upstream_references": [
+        {
+          "url": "https://raw.githubusercontent.com/wolfi-dev/os/b05894c521b790b03b8f2dfe1bc573f7e31acb44/glibc-2.44/0001-Link-startup-files-without-package-metadata.patch",
+          "sha256": "4fb8772021dcd5f24941b4d031d10b30f81b48d885f71889c669933e5a51d142"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/wolfi-dev/os/b05894c521b790b03b8f2dfe1bc573f7e31acb44/glibc-2.44/CVE-2026-84243.patch",
+          "sha256": "c79c8e500bdfff56462315aed6e0e1b2c139533d707c79c60ef0b318cc693706"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/wolfi-dev/os/b05894c521b790b03b8f2dfe1bc573f7e31acb44/glibc-2.44/allowed-failures.txt",
+          "sha256": "5f46e1d2f6ab2b7797c7af9f6a28e33dfd879382890adc11ac613c19992d66ac"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/wolfi-dev/os/b05894c521b790b03b8f2dfe1bc573f7e31acb44/glibc-2.44/compatibility-gate",
+          "sha256": "c05aa31da812d051753e7932a45d32d3c75168a4dbf4ffbecc31744be3c14bb6"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/wolfi-dev/os/b05894c521b790b03b8f2dfe1bc573f7e31acb44/glibc-2.44/fdo.patch",
+          "sha256": "a187de88cb3143c440b33488793ba6dcae5aeb9710d081c587defaba0abb06b4"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/wolfi-dev/os/b05894c521b790b03b8f2dfe1bc573f7e31acb44/glibc-2.44/fix-allowed-failures-escaping.patch",
+          "sha256": "d6a7c6a1affc812ce7f0439645bf4311d26572c73284740baeaa6e0c486bb6f3"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/wolfi-dev/os/b05894c521b790b03b8f2dfe1bc573f7e31acb44/glibc-2.44/ldconfig-commit.sh",
+          "sha256": "3b7637d6b5e83fe60045d8bd6155b971503ba03f447f3670062368da8916227e"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/wolfi-dev/os/b05894c521b790b03b8f2dfe1bc573f7e31acb44/glibc-2.44/vendor/ld.so.conf",
+          "sha256": "27d7ebd402e1b9a20fd3a0663ccc10e1b1feff2d9dfb1ad7dd12bb76cfe0880a"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/wolfi-dev/os/b05894c521b790b03b8f2dfe1bc573f7e31acb44/glibc-2.44/vendor/ld.so.conf.d/libc.conf",
+          "sha256": "bb79854205e3e21969d710c2a2b8ea262a7627852f2226cdfe1cb7c72feb7d2d"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/wolfi-dev/os/b05894c521b790b03b8f2dfe1bc573f7e31acb44/glibc-2.44.yaml",
+          "sha256": "67a4267c592cc743109ae0f605a067df693ceec5ddcbd172338fb5d76ff3397b"
+        },
+        {
+          "url": "https://tarballs.cgr.dev/g/9390037ac2ec26cf74ce7c6709d852e0ce67205355e04fbdb9b9549f47a5bb40-47e2b570410fab606de29f550534a721184852c3.tar.gz",
+          "sha256": "111da63bbfe6bc207e4991baf0a75a4ba43cff6efd69cd507cc62f40fb324eb3"
+        },
+        {
+          "url": "https://tarballs.cgr.dev/g/9390037ac2ec26cf74ce7c6709d852e0ce67205355e04fbdb9b9549f47a5bb40-47e2b570410fab606de29f550534a721184852c3.tar.gz",
+          "sha256": "b22a69aa3f80a5201818c66cb0df0f25f9fa13cf5861b0093a058dbd12d50dce"
+        },
+        {
+          "url": "https://tarballs.cgr.dev/g/9390037ac2ec26cf74ce7c6709d852e0ce67205355e04fbdb9b9549f47a5bb40-47e2b570410fab606de29f550534a721184852c3.tar.gz",
+          "sha256": "20e50fe7aae3e56378ebf0417d9de904f55a0e61e4df315333e632a4d3555d95"
+        },
+        {
+          "url": "https://tarballs.cgr.dev/g/9390037ac2ec26cf74ce7c6709d852e0ce67205355e04fbdb9b9549f47a5bb40-47e2b570410fab606de29f550534a721184852c3.tar.gz",
+          "sha256": "edaef632cbb643e4e7a221717a6c441a4c1a7c918e6e4d56debc3d8739b233f6"
+        },
+        {
+          "url": "https://tarballs.cgr.dev/g/9390037ac2ec26cf74ce7c6709d852e0ce67205355e04fbdb9b9549f47a5bb40-47e2b570410fab606de29f550534a721184852c3.tar.gz",
+          "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
+        }
+      ]
+    },
+    {
+      "name": "apk-tools",
+      "version": "2.14.13-r1",
+      "purl": "pkg:apk/wolfi/apk-tools@2.14.13-r1?arch=x86_64&distro=wolfi-20230201",
+      "declared_licenses": [
+        "GPL-2.0-only"
+      ],
+      "source_group": "apk-tools",
+      "status": "pending-complete-corresponding-source-validation",
+      "remaining_work": "Official Alpine archive for the exact source commit is accessible. The supplier tarball URL remains broken; original supplier recipe/build inputs and recipient corresponding-source delivery remain unresolved.",
+      "upstream_references": [
+        {
+          "url": "https://tarballs.cgr.dev/a/30f50847291d6711d36ff8c57d76ddd27b0e5c6aa3579e2c270c40018c1297b4-179aba9f22c2e22d45b21bd68e9478fe06d8896a.tar.gz",
+          "accessible": false,
+          "error": "HTTP Error 404: Not Found"
+        },
+        {
+          "url": "https://codeload.github.com/alpinelinux/apk-tools/tar.gz/179aba9f22c2e22d45b21bd68e9478fe06d8896a",
+          "role": "alternate upstream mirror; not asserted supplier-equivalent",
+          "accessible": false,
+          "error": "HTTP Error 404: Not Found"
+        },
+        {
+          "url": "https://gitlab.alpinelinux.org/alpine/apk-tools",
+          "role": "upstream licensing guidance"
+        },
+        {
+          "url": "https://gitlab.alpinelinux.org/alpine/apk-tools/-/archive/179aba9f22c2e22d45b21bd68e9478fe06d8896a/apk-tools-179aba9f22c2e22d45b21bd68e9478fe06d8896a.tar.gz",
+          "accessible": true,
+          "checked_on": "2026-11-13",
+          "role": "Official upstream archive for exact SBOM source commit; HTTP 200 and gzip header verified"
+        }
+      ]
+    },
+    {
+      "name": "bash",
+      "version": "5.3-r14",
+      "purl": "pkg:apk/wolfi/bash@5.3-r14?arch=x86_64&distro=wolfi-20230201",
+      "declared_licenses": [
+        "GPL-3.0-or-later"
+      ],
+      "source_group": "bash",
+      "status": "pending-complete-corresponding-source-validation",
+      "remaining_work": "Upstream GPLv3 text retained. Complete source includes supplier build inputs; original recipe is unavailable. Verify recipient access through the published source-access evidence.",
+      "upstream_references": [
+        {
+          "url": "https://tarballs.cgr.dev/g/0e7c34c3027d7f6da5723ac0c18a27c10a29ce56d560c36969b71020e9407623-b8c60bc9ca365f8261fa97900b6fa939f6ebc303.tar.gz",
+          "sha256": "9482e3019bf05ce8092956459f8f048b51db5a99b2d1b32ef466740ac19776f4",
+          "accessible": true
+        },
+        {
+          "url": "https://www.gnu.org/software/bash/",
+          "role": "upstream licensing guidance"
+        }
+      ]
+    },
+    {
+      "name": "busybox",
+      "version": "1.38.0-r3",
+      "purl": "pkg:apk/wolfi/busybox@1.38.0-r3?arch=x86_64&distro=wolfi-20230201",
+      "declared_licenses": [
+        "GPL-2.0-only"
+      ],
+      "source_group": "busybox",
+      "status": "pending-complete-corresponding-source-validation",
+      "remaining_work": "Exact upstream source and GPL text retained. Supplier build configuration/patches and recipient corresponding-source access remain to be established; upstream tarball alone is not the complete supplier build.",
+      "upstream_references": [
+        {
+          "url": "https://github.com/vda-linux/busybox_mirror/archive/fc71374dfccd46448c62947269a35f1420d7ee28.tar.gz",
+          "sha256": "d07129e55810dbf6cd3378c29192e9f0af277ad097f40634b7b809d298aba638",
+          "accessible": true
+        },
+        {
+          "url": "https://busybox.net/license.html",
+          "role": "upstream licensing guidance"
+        }
+      ]
+    },
+    {
+      "name": "gdbm",
+      "version": "1.26-r9",
+      "purl": "pkg:apk/wolfi/gdbm@1.26-r9?arch=x86_64&distro=wolfi-20230201",
+      "declared_licenses": [
+        "GPL-3.0-or-later"
+      ],
+      "source_group": "gdbm",
+      "status": "pending-complete-corresponding-source-validation",
+      "remaining_work": "Exact source and GPL text retained. Establish corresponding-source access and identify the distributed consumer of this GPL library; presence alone does not prove proprietary application linkage.",
+      "upstream_references": [
+        {
+          "url": "https://tarballs.cgr.dev/g/42740bd9e1a78209c3c68f439ab4397c34f0ed77c165a024d710bdd48e76d1df-8ca8f03ab6cc125139a395ec2d522aebb15f8060.tar.gz",
+          "sha256": "6ea87ca2b9a1e2d134abea9de169a9e23bc1444cae6503db65813a04732bf1fe",
+          "accessible": true
+        },
+        {
+          "url": "https://www.gnu.org.ua/software/gdbm/",
+          "role": "upstream licensing guidance"
+        }
+      ]
+    },
+    {
+      "name": "readline",
+      "version": "8.3-r3",
+      "purl": "pkg:apk/wolfi/readline@8.3-r3?arch=x86_64&distro=wolfi-20230201",
+      "declared_licenses": [
+        "GPL-3.0-or-later"
+      ],
+      "source_group": "readline",
+      "status": "pending-complete-corresponding-source-validation",
+      "remaining_work": "Exact source and GPL text retained. Establish corresponding-source access and identify the distributed consumer of this GPL library; do not confuse use by Bash with application linkage.",
+      "upstream_references": [
+        {
+          "url": "https://tarballs.cgr.dev/g/ca1544b7a4361c29393002e6b6d7b40cf760179801b69a5c375d2d2ed53e109a-447b8290b3e2e2d117dc8e9cdb83b0dc6448a638.tar.gz",
+          "sha256": "737e781b0e6c3ac001e5e71703aff8347114e00b7e595b3e8dc6be22189ba13c",
+          "accessible": true
+        },
+        {
+          "url": "https://tiswww.case.edu/php/chet/readline/rltop.html",
+          "role": "upstream licensing guidance"
+        }
+      ]
+    },
+    {
+      "name": "keyutils-libs",
+      "version": "1.6.3-r41",
+      "purl": "pkg:apk/wolfi/keyutils-libs@1.6.3-r41?arch=x86_64&distro=wolfi-20230201&upstream=keyutils",
+      "declared_licenses": [
+        "GPL-2.0-or-later OR LGPL-2.0-or-later"
+      ],
+      "source_group": "keyutils-libs",
+      "status": "pending-complete-corresponding-source-validation",
+      "remaining_work": "Pinned keyutils.c explicitly applies LGPL v2 or later to the library; utilities are GPL. Retain library notices, complete supplier source access, and applicable replacement/relinking rights.",
+      "upstream_references": [
+        {
+          "url": "https://tarballs.cgr.dev/p/c4263df0120f9cbea0297c9b6574d5bafd566f98b9cec2e39be1c0e378836781-cb3bb194cca88211cbfcdde2f10c0f43c3fb8ec3.tar.gz",
+          "sha256": "826e838b41a2adacb119cdf19734af69cdedd4e93c50498aa845898fa729515d",
+          "accessible": true
+        },
+        {
+          "url": "https://git.kernel.org/pub/scm/linux/kernel/git/dhowells/keyutils.git/",
+          "role": "upstream licensing guidance"
+        }
+      ]
+    },
+    {
+      "name": "libcap-ng",
+      "version": "0.9.6-r1",
+      "purl": "pkg:apk/wolfi/libcap-ng@0.9.6-r1?arch=x86_64&distro=wolfi-20230201",
+      "declared_licenses": [
+        "GPL-2.0-or-later AND LGPL-2.1-or-later"
+      ],
+      "source_group": "libcap-ng",
+      "status": "pending-complete-corresponding-source-validation",
+      "remaining_work": "Library COPYING.LIB retained alongside project GPL text. Final subpackage scope, supplier source access and applicable library replacement conditions remain to be verified.",
+      "upstream_references": [
+        {
+          "url": "https://github.com/stevegrubb/libcap-ng/archive/c382c641ca5730442289c09d3c3d30cc2c8635a9.tar.gz",
+          "sha256": "6d67537dbe456ab63448b252b1b8a248027c7ff3d0642e4033a16be72cbc4f6e",
+          "accessible": true
+        },
+        {
+          "url": "https://github.com/stevegrubb/libcap-ng",
+          "role": "upstream licensing guidance"
+        }
+      ]
+    },
+    {
+      "name": "libidn2",
+      "version": "2.3.8-r12",
+      "purl": "pkg:apk/wolfi/libidn2@2.3.8-r12?arch=x86_64&distro=wolfi-20230201",
+      "declared_licenses": [
+        "GPL-2.0-or-later AND LGPL-3.0-or-later"
+      ],
+      "source_group": "libidn2",
+      "status": "pending-complete-corresponding-source-validation",
+      "remaining_work": "Pinned upstream README distinguishes dual-licensed library from GPLv3 utilities. Prefer the LGPL option for library use, subject to source access and replacement/relinking conditions; do not silently rewrite the aggregate AND declaration.",
+      "upstream_references": [
+        {
+          "url": "https://tarballs.cgr.dev/l/647ec517d7d5a099d6182bc708cd871327e049f96c961ab62ae2acea4398bf29-9bc3ac79e2ae81ade245a0e308bf13c981efaa83.tar.gz",
+          "sha256": "c1628c59a164d1a3d55ca44bf10a3e2a9bf06988bcb1d2d35fa8f4cd1d4cdc7e",
+          "accessible": true
+        },
+        {
+          "url": "https://www.gnu.org/software/libidn/libidn2/manual/libidn2.html",
+          "role": "upstream licensing guidance"
+        }
+      ]
+    },
+    {
+      "name": "libunistring",
+      "version": "1.5-r1",
+      "purl": "pkg:apk/wolfi/libunistring@1.5-r1?arch=x86_64&distro=wolfi-20230201",
+      "declared_licenses": [
+        "GPL-2.0-or-later OR LGPL-3.0-or-later"
+      ],
+      "source_group": "libunistring",
+      "status": "pending-complete-corresponding-source-validation",
+      "remaining_work": "Upstream documentation confirms the dual-license choice. LGPL text retained. Complete supplier source access and applicable replacement/relinking conditions remain to be verified.",
+      "upstream_references": [
+        {
+          "url": "https://tarballs.cgr.dev/g/8647b56477282eff9978402011260dd5cf99ea235db78088a35a84c76d6356c8-9a0b11a515258048ba17f05009cbd317298de92d.tar.gz",
+          "sha256": "5a85794d015c2fd605cae6548e209150ba26386855318ad61f0f7ff71e4b7aff",
+          "accessible": true
+        },
+        {
+          "url": "https://www.gnu.org/software/libunistring/manual/html_node/Licenses.html",
+          "role": "upstream licensing guidance"
+        }
+      ]
+    },
+    {
+      "name": "libxcrypt",
+      "version": "4.5.2-r8",
+      "purl": "pkg:apk/wolfi/libxcrypt@4.5.2-r8?arch=x86_64&distro=wolfi-20230201",
+      "declared_licenses": [
+        "GPL-2.0-or-later AND LGPL-2.1-or-later"
+      ],
+      "source_group": "libxcrypt",
+      "status": "pending-complete-corresponding-source-validation",
+      "remaining_work": "Pinned LICENSING states the overall library is LGPL2.1-or-later and inventories individual licenses. Preserve all applicable notices; complete supplier source access and replacement/relinking conditions remain.",
+      "upstream_references": [
+        {
+          "url": "https://github.com/besser82/libxcrypt/archive/db70b42bd7b2a5b00a8580c8dec0aa66791c950a.tar.gz",
+          "sha256": "0a54d0e1c9e3c573f009d77bb7b5b9f2884000a4b72b19473058c5d8c80b8fa5",
+          "accessible": true
+        },
+        {
+          "url": "https://github.com/besser82/libxcrypt/blob/db70b42bd7b2a5b00a8580c8dec0aa66791c950a/LICENSING",
+          "role": "upstream licensing guidance"
+        }
+      ]
+    },
+    {
+      "name": "setpriv",
+      "version": "2.42.4-r2",
+      "purl": "pkg:apk/wolfi/setpriv@2.42.4-r2?arch=x86_64&distro=wolfi-20230201&upstream=util-linux",
+      "declared_licenses": [
+        "GPL-3.0-or-later AND GPL-2.0-or-later AND GPL-2.0-only AND GPL-1.0-only AND LGPL-2.1-or-later AND BSD-1-Clause AND BSD-2-Clause AND BSD-3-Clause AND BSD-4-Clause-UC AND MIT AND CC-PDDC"
+      ],
+      "source_group": "setpriv",
+      "status": "pending-complete-corresponding-source-validation",
+      "remaining_work": "Pinned setpriv.c identifies GPLv2-or-later; util-linux aggregate includes unrelated utilities. Retained project license texts do not by themselves resolve all linked support code. Supplier source/build access remains outstanding.",
+      "upstream_references": [
+        {
+          "url": "https://github.com/util-linux/util-linux/archive/d76cbf8f13e65ff657344f7f6a90042cf755ba59.tar.gz",
+          "sha256": "29708436c29e1dd21531f6e3ceb76adff42cc0b71e015db164e04d50ac2499cc",
+          "accessible": true
+        },
+        {
+          "url": "https://github.com/util-linux/util-linux/blob/d76cbf8f13e65ff657344f7f6a90042cf755ba59/sys-utils/setpriv.c",
+          "role": "upstream licensing guidance"
+        }
+      ]
+    },
+    {
+      "name": "ca-certificates-bundle",
+      "version": "20261020-r0",
+      "purl": "pkg:apk/wolfi/ca-certificates-bundle@20261020-r0?arch=x86_64&distro=wolfi-20230201&upstream=ca-certificates",
+      "declared_licenses": [
+        "MPL-2.0 AND MIT"
+      ],
+      "source_group": "ca-certificates-bundle",
+      "status": "pending-complete-corresponding-source-validation",
+      "remaining_work": "Exact certdata.txt with MPL notice and generating script retained. Public recipe shows certificate exclusions. Original supplier recipe is unavailable; verify the exact modified covered data and recipient source-access notice before clearance.",
+      "upstream_references": [
+        {
+          "url": "https://tarballs.cgr.dev/a/f7f6555663adc30d4e3c43a90ddef6942dabe93d06f7a7201cf29d993222346a-2058424fda70ee478bcce872dcf141a0c5499ee0.tar.gz",
+          "sha256": "e3870e37e184ec67da6c2288cdc7129eda637e633135405d7e670fadf6cd9739",
+          "accessible": true
+        },
+        {
+          "url": "https://www.mozilla.org/en-US/MPL/2.0/FAQ/",
+          "role": "upstream licensing guidance"
+        }
+      ]
+    }
+  ],
+  "assets": [
+    {
+      "name": "gcc-pinned-upstream.tar.gz",
+      "sha256": "12efc7e85959a0a4585563e016f9f30c4d7ee60d3ece8ea2cfcdd1480f7860ea",
+      "size": 164207091,
+      "source_group": "gcc",
+      "archive_regular_files": 158889,
+      "url": "https://github.com/venntier/runtime-third-party-sources/releases/download/vt-analytics-runtime-20261113-820a45f7dd1a/gcc-pinned-upstream.tar.gz"
+    },
+    {
+      "name": "glibc-pinned-upstream.tar.gz",
+      "sha256": "111da63bbfe6bc207e4991baf0a75a4ba43cff6efd69cd507cc62f40fb324eb3",
+      "size": 42974047,
+      "source_group": "glibc",
+      "archive_regular_files": 20938,
+      "url": "https://github.com/venntier/runtime-third-party-sources/releases/download/vt-analytics-runtime-20261113-820a45f7dd1a/glibc-pinned-upstream.tar.gz"
+    },
+    {
+      "name": "apk-tools-pinned-upstream.tar.gz",
+      "sha256": "ef5a25fc81ebc821005850f3e6e320e3235538484202ca7eeebf35285012feef",
+      "size": 201119,
+      "source_group": "apk-tools",
+      "archive_regular_files": 256,
+      "url": "https://github.com/venntier/runtime-third-party-sources/releases/download/vt-analytics-runtime-20261113-820a45f7dd1a/apk-tools-pinned-upstream.tar.gz"
+    },
+    {
+      "name": "bash-pinned-upstream.tar.gz",
+      "sha256": "9482e3019bf05ce8092956459f8f048b51db5a99b2d1b32ef466740ac19776f4",
+      "size": 11792106,
+      "source_group": "bash",
+      "archive_regular_files": 1603,
+      "url": "https://github.com/venntier/runtime-third-party-sources/releases/download/vt-analytics-runtime-20261113-820a45f7dd1a/bash-pinned-upstream.tar.gz"
+    },
+    {
+      "name": "busybox-pinned-upstream.tar.gz",
+      "sha256": "d07129e55810dbf6cd3378c29192e9f0af277ad097f40634b7b809d298aba638",
+      "size": 3259716,
+      "source_group": "busybox",
+      "archive_regular_files": 2990,
+      "url": "https://github.com/venntier/runtime-third-party-sources/releases/download/vt-analytics-runtime-20261113-820a45f7dd1a/busybox-pinned-upstream.tar.gz"
+    },
+    {
+      "name": "gdbm-pinned-upstream.tar.gz",
+      "sha256": "6ea87ca2b9a1e2d134abea9de169a9e23bc1444cae6503db65813a04732bf1fe",
+      "size": 270762,
+      "source_group": "gdbm",
+      "archive_regular_files": 186,
+      "url": "https://github.com/venntier/runtime-third-party-sources/releases/download/vt-analytics-runtime-20261113-820a45f7dd1a/gdbm-pinned-upstream.tar.gz"
+    },
+    {
+      "name": "readline-pinned-upstream.tar.gz",
+      "sha256": "737e781b0e6c3ac001e5e71703aff8347114e00b7e595b3e8dc6be22189ba13c",
+      "size": 3556000,
+      "source_group": "readline",
+      "archive_regular_files": 167,
+      "url": "https://github.com/venntier/runtime-third-party-sources/releases/download/vt-analytics-runtime-20261113-820a45f7dd1a/readline-pinned-upstream.tar.gz"
+    },
+    {
+      "name": "keyutils-libs-pinned-upstream.tar.gz",
+      "sha256": "826e838b41a2adacb119cdf19734af69cdedd4e93c50498aa845898fa729515d",
+      "size": 136905,
+      "source_group": "keyutils-libs",
+      "archive_regular_files": 150,
+      "url": "https://github.com/venntier/runtime-third-party-sources/releases/download/vt-analytics-runtime-20261113-820a45f7dd1a/keyutils-libs-pinned-upstream.tar.gz"
+    },
+    {
+      "name": "libcap-ng-pinned-upstream.tar.gz",
+      "sha256": "6d67537dbe456ab63448b252b1b8a248027c7ff3d0642e4033a16be72cbc4f6e",
+      "size": 186369,
+      "source_group": "libcap-ng",
+      "archive_regular_files": 115,
+      "url": "https://github.com/venntier/runtime-third-party-sources/releases/download/vt-analytics-runtime-20261113-820a45f7dd1a/libcap-ng-pinned-upstream.tar.gz"
+    },
+    {
+      "name": "libidn2-pinned-upstream.tar.gz",
+      "sha256": "c1628c59a164d1a3d55ca44bf10a3e2a9bf06988bcb1d2d35fa8f4cd1d4cdc7e",
+      "size": 718573,
+      "source_group": "libidn2",
+      "archive_regular_files": 1212,
+      "url": "https://github.com/venntier/runtime-third-party-sources/releases/download/vt-analytics-runtime-20261113-820a45f7dd1a/libidn2-pinned-upstream.tar.gz"
+    },
+    {
+      "name": "libunistring-pinned-upstream.tar.gz",
+      "sha256": "5a85794d015c2fd605cae6548e209150ba26386855318ad61f0f7ff71e4b7aff",
+      "size": 475540,
+      "source_group": "libunistring",
+      "archive_regular_files": 83,
+      "url": "https://github.com/venntier/runtime-third-party-sources/releases/download/vt-analytics-runtime-20261113-820a45f7dd1a/libunistring-pinned-upstream.tar.gz"
+    },
+    {
+      "name": "libxcrypt-pinned-upstream.tar.gz",
+      "sha256": "0a54d0e1c9e3c573f009d77bb7b5b9f2884000a4b72b19473058c5d8c80b8fa5",
+      "size": 576147,
+      "source_group": "libxcrypt",
+      "archive_regular_files": 174,
+      "url": "https://github.com/venntier/runtime-third-party-sources/releases/download/vt-analytics-runtime-20261113-820a45f7dd1a/libxcrypt-pinned-upstream.tar.gz"
+    },
+    {
+      "name": "setpriv-pinned-upstream.tar.gz",
+      "sha256": "29708436c29e1dd21531f6e3ceb76adff42cc0b71e015db164e04d50ac2499cc",
+      "size": 18198615,
+      "source_group": "setpriv",
+      "archive_regular_files": 3709,
+      "url": "https://github.com/venntier/runtime-third-party-sources/releases/download/vt-analytics-runtime-20261113-820a45f7dd1a/setpriv-pinned-upstream.tar.gz"
+    },
+    {
+      "name": "ca-certificates-bundle-pinned-upstream.tar.gz",
+      "sha256": "e3870e37e184ec67da6c2288cdc7129eda637e633135405d7e670fadf6cd9739",
+      "size": 319456,
+      "source_group": "ca-certificates-bundle",
+      "archive_regular_files": 13,
+      "url": "https://github.com/venntier/runtime-third-party-sources/releases/download/vt-analytics-runtime-20261113-820a45f7dd1a/ca-certificates-bundle-pinned-upstream.tar.gz"
+    }
+  ],
+  "alternative_retrievals": {
+    "gcc": "https://codeload.github.com/gcc-mirror/gcc/tar.gz/78d4ac73dd391005b895a6148cd9831e28e1208b",
+    "apk-tools": "https://gitlab.alpinelinux.org/alpine/apk-tools/-/archive/179aba9f22c2e22d45b21bd68e9478fe06d8896a/apk-tools-179aba9f22c2e22d45b21bd68e9478fe06d8896a.tar.gz"
+  }
+}

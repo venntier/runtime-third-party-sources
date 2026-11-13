@@ -1,0 +1,37 @@
+{
+  "package": "ca-certificates-bundle-20261020-r0.spdx.json",
+  "sources": [
+    {
+      "url": "https://tarballs.cgr.dev/a/f7f6555663adc30d4e3c43a90ddef6942dabe93d06f7a7201cf29d993222346a-2058424fda70ee478bcce872dcf141a0c5499ee0.tar.gz",
+      "sha256": "e3870e37e184ec67da6c2288cdc7129eda637e633135405d7e670fadf6cd9739",
+      "accessible": true
+    }
+  ],
+  "materials": [
+    {
+      "file": "recipe.yaml.txt",
+      "upstream_path": "https://raw.githubusercontent.com/wolfi-dev/os/b05894c521b790b03b8f2dfe1bc573f7e31acb44/ca-certificates.yaml",
+      "sha256": "f7cfd4bab9b8ad202e8b47f9672e4e6c8a591917658d4dd0ab35ac1dae30bc58"
+    },
+    {
+      "file": "README.md.txt",
+      "upstream_path": "ca-certificates-2058424fda70ee478bcce872dcf141a0c5499ee0/README.md",
+      "sha256": "f035dad569493e311659b9b79be908ce75a5363a958e8ada9b3c37b58707b913"
+    },
+    {
+      "file": "certdata.txt.txt",
+      "upstream_path": "ca-certificates-2058424fda70ee478bcce872dcf141a0c5499ee0/certdata.txt",
+      "sha256": "3ec2b4d240dc12c747eaf450061db84af757c483bbda302f9e29ceb5d70be510"
+    },
+    {
+      "file": "mk-ca-bundle.pl.txt",
+      "upstream_path": "ca-certificates-2058424fda70ee478bcce872dcf141a0c5499ee0/mk-ca-bundle.pl",
+      "sha256": "8e278f4982210b37e4f9a048bd6ed23df41e4a054085bd73f8242628f03d09ca"
+    }
+  ],
+  "original_recipe": {
+    "url": "https://raw.githubusercontent.com/chainguard-dev/stereo/8061afafa65af5a9026707a8880e14120dd6f4a0/ca-certificates.yaml",
+    "accessible": false,
+    "error": "HTTP Error 404: Not Found"
+  }
+}

@@ -1,0 +1,146 @@
+{
+  "spdxVersion": "SPDX-2.3",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "name": "apk-libidn2-2.3.8-r12",
+  "documentNamespace": "https://spdx.org/spdxdocs/chainguard/build/056d6c6e1d56e0930851cdff68039f7a",
+  "creationInfo": {
+    "licenseListVersion": "3.22",
+    "creators": [
+      "Tool: chainguard-build (v0.63.1)",
+      "Organization: Chainguard, Inc"
+    ],
+    "created": "2026-10-26T20:13:57Z"
+  },
+  "packages": [
+    {
+      "name": "wolfi",
+      "SPDXID": "SPDXRef-OperatingSystem",
+      "supplier": "Organization: Wolfi",
+      "originator": "Organization: Wolfi",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "description": "Operating System",
+      "primaryPackagePurpose": "OPERATING-SYSTEM"
+    },
+    {
+      "name": "libidn2",
+      "SPDXID": "SPDXRef-Package-apk-libidn2-2.3.8-r12",
+      "versionInfo": "2.3.8-r12",
+      "supplier": "Organization: Wolfi",
+      "originator": "Organization: Wolfi",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "GPL-2.0-or-later AND LGPL-3.0-or-later",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:apk/wolfi/libidn2@2.3.8-r12?arch=x86_64\u0026distro=wolfi"
+        }
+      ],
+      "primaryPackagePurpose": "APPLICATION"
+    },
+    {
+      "name": "libidn2.yaml",
+      "SPDXID": "SPDXRef-Package-Melange-libidn2.yaml-491b184c82ef2868d73a46a98997db789342ff15",
+      "versionInfo": "491b184c82ef2868d73a46a98997db789342ff15",
+      "supplier": "Organization: Wolfi",
+      "originator": "Organization: Wolfi",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:github/chainguard-dev/stereo@491b184c82ef2868d73a46a98997db789342ff15#libidn2.yaml"
+        }
+      ],
+      "primaryPackagePurpose": "INSTALL"
+    },
+    {
+      "name": "libidn/libidn2",
+      "SPDXID": "SPDXRef-Package-Source-gitlab.com-libidn-libidn2-v2.3.8-9bc3ac79e2ae81ade245a0e308bf13c981efaa83-0",
+      "versionInfo": "v2.3.8",
+      "supplier": "Organization: Wolfi",
+      "originator": "Organization: Wolfi",
+      "downloadLocation": "https://tarballs.cgr.dev/l/647ec517d7d5a099d6182bc708cd871327e049f96c961ab62ae2acea4398bf29-9bc3ac79e2ae81ade245a0e308bf13c981efaa83.tar.gz",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "GPL-2.0-or-later AND LGPL-3.0-or-later",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:generic/libidn%2Flibidn2@v2.3.8?vcs_url=git%2Bhttps:%2F%2Fgitlab.com%2Flibidn%2Flibidn2%409bc3ac79e2ae81ade245a0e308bf13c981efaa83"
+        }
+      ],
+      "primaryPackagePurpose": "SOURCE"
+    },
+    {
+      "name": "libidn2",
+      "SPDXID": "SPDXRef-Package-apk-libidn2-c2a5069cc7f337b2",
+      "versionInfo": "2.3.8-r12",
+      "supplier": "Organization: chainguard",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "sourceInfo": "acquired package info from APK DB: /.PKGINFO",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "(GPL-2.0-or-later AND LGPL-3.0-or-later)",
+      "copyrightText": "NOASSERTION",
+      "description": "Encode/Decode library for internationalized domain names",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:apk/wolfi/libidn2@2.3.8-r12?arch=x86_64\u0026origin=libidn2"
+        }
+      ]
+    },
+    {
+      "name": "libidn2",
+      "SPDXID": "SPDXRef-DocumentRoot-Directory-libidn2",
+      "versionInfo": "2.3.8-r12",
+      "supplier": "Organization: chainguard",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "primaryPackagePurpose": "FILE"
+    }
+  ],
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-Package-apk-libidn2-2.3.8-r12",
+      "relatedSpdxElement": "SPDXRef-Package-Melange-libidn2.yaml-491b184c82ef2868d73a46a98997db789342ff15",
+      "relationshipType": "DESCRIBED_BY"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-apk-libidn2-2.3.8-r12",
+      "relatedSpdxElement": "SPDXRef-Package-Source-gitlab.com-libidn-libidn2-v2.3.8-9bc3ac79e2ae81ade245a0e308bf13c981efaa83-0",
+      "relationshipType": "GENERATED_FROM"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relatedSpdxElement": "SPDXRef-Package-apk-libidn2-2.3.8-r12",
+      "relationshipType": "DESCRIBES"
+    },
+    {
+      "spdxElementId": "SPDXRef-DocumentRoot-Directory-libidn2",
+      "relatedSpdxElement": "SPDXRef-Package-apk-libidn2-c2a5069cc7f337b2",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-apk-libidn2-2.3.8-r12",
+      "relatedSpdxElement": "SPDXRef-DocumentRoot-Directory-libidn2",
+      "relationshipType": "CONTAINS"
+    }
+  ]
+}

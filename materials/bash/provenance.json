@@ -1,0 +1,32 @@
+{
+  "package": "bash-5.3-r14.spdx.json",
+  "sources": [
+    {
+      "url": "https://tarballs.cgr.dev/g/0e7c34c3027d7f6da5723ac0c18a27c10a29ce56d560c36969b71020e9407623-b8c60bc9ca365f8261fa97900b6fa939f6ebc303.tar.gz",
+      "sha256": "9482e3019bf05ce8092956459f8f048b51db5a99b2d1b32ef466740ac19776f4",
+      "accessible": true
+    }
+  ],
+  "materials": [
+    {
+      "file": "COPYING.txt",
+      "upstream_path": "bash-b8c60bc9ca365f8261fa97900b6fa939f6ebc303/COPYING",
+      "sha256": "8ceb4b9ee5adedde47b31e975c1d90c73ad27b6b165a1dcd80c7c545eb65b903"
+    },
+    {
+      "file": "lib__readline__COPYING.txt",
+      "upstream_path": "bash-b8c60bc9ca365f8261fa97900b6fa939f6ebc303/lib/readline/COPYING",
+      "sha256": "8ceb4b9ee5adedde47b31e975c1d90c73ad27b6b165a1dcd80c7c545eb65b903"
+    },
+    {
+      "file": "recipe.yaml.txt",
+      "upstream_path": "https://raw.githubusercontent.com/wolfi-dev/os/b05894c521b790b03b8f2dfe1bc573f7e31acb44/bash.yaml",
+      "sha256": "dc5ae89ff1debce9f485f21804a2569434eca081012d868d1ddae53413d0f27a"
+    }
+  ],
+  "original_recipe": {
+    "url": "https://raw.githubusercontent.com/chainguard-dev/stereo/ac7b15dc2695924986372a27cd7d6c4e029c5efa/bash.yaml",
+    "accessible": false,
+    "error": "HTTP Error 404: Not Found"
+  }
+}

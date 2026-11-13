@@ -1,0 +1,146 @@
+{
+  "spdxVersion": "SPDX-2.3",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "name": "apk-keyutils-libs-1.6.3-r41",
+  "documentNamespace": "https://spdx.org/spdxdocs/chainguard/build/e0a62704e4740af3dc2043634389f514",
+  "creationInfo": {
+    "licenseListVersion": "3.22",
+    "creators": [
+      "Tool: chainguard-build (v0.62.0)",
+      "Organization: Chainguard, Inc"
+    ],
+    "created": "2026-10-09T22:48:36Z"
+  },
+  "packages": [
+    {
+      "name": "wolfi",
+      "SPDXID": "SPDXRef-OperatingSystem",
+      "supplier": "Organization: Wolfi",
+      "originator": "Organization: Wolfi",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "description": "Operating System",
+      "primaryPackagePurpose": "OPERATING-SYSTEM"
+    },
+    {
+      "name": "keyutils-libs",
+      "SPDXID": "SPDXRef-Package-apk-keyutils-libs-1.6.3-r41",
+      "versionInfo": "1.6.3-r41",
+      "supplier": "Organization: Wolfi",
+      "originator": "Organization: Wolfi",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "GPL-2.0-or-later OR LGPL-2.0-or-later",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:apk/wolfi/keyutils-libs@1.6.3-r41?arch=x86_64\u0026distro=wolfi"
+        }
+      ],
+      "primaryPackagePurpose": "APPLICATION"
+    },
+    {
+      "name": "keyutils.yaml",
+      "SPDXID": "SPDXRef-Package-Melange-keyutils.yaml-014624f79627768df6f5ff49f4265a7057c2e206",
+      "versionInfo": "014624f79627768df6f5ff49f4265a7057c2e206",
+      "supplier": "Organization: Wolfi",
+      "originator": "Organization: Wolfi",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:github/chainguard-dev/stereo@014624f79627768df6f5ff49f4265a7057c2e206#keyutils.yaml"
+        }
+      ],
+      "primaryPackagePurpose": "INSTALL"
+    },
+    {
+      "name": "pub/scm/linux/kernel/git/dhowells/keyutils",
+      "SPDXID": "SPDXRef-Package-Source-kernel.googlesource.com-pub-scm-linux-kernel-git-dhowells-keyutils.git-v1.6.3-cb3bb194cca88211cbfcdde2f10c0f43c3fb8ec3-0",
+      "versionInfo": "v1.6.3",
+      "supplier": "Organization: Wolfi",
+      "originator": "Organization: Wolfi",
+      "downloadLocation": "https://tarballs.cgr.dev/p/c4263df0120f9cbea0297c9b6574d5bafd566f98b9cec2e39be1c0e378836781-cb3bb194cca88211cbfcdde2f10c0f43c3fb8ec3.tar.gz",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "GPL-2.0-or-later OR LGPL-2.0-or-later",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:generic/pub%2Fscm%2Flinux%2Fkernel%2Fgit%2Fdhowells%2Fkeyutils@v1.6.3?vcs_url=git%2Bhttps:%2F%2Fkernel.googlesource.com%2Fpub%2Fscm%2Flinux%2Fkernel%2Fgit%2Fdhowells%2Fkeyutils.git%40cb3bb194cca88211cbfcdde2f10c0f43c3fb8ec3"
+        }
+      ],
+      "primaryPackagePurpose": "SOURCE"
+    },
+    {
+      "name": "keyutils-libs",
+      "SPDXID": "SPDXRef-Package-apk-keyutils-libs-33941f83b328991d",
+      "versionInfo": "1.6.3-r41",
+      "supplier": "Organization: chainguard",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "sourceInfo": "acquired package info from APK DB: /.PKGINFO",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "(GPL-2.0-or-later OR LGPL-2.0-or-later)",
+      "copyrightText": "NOASSERTION",
+      "description": "keyutils library",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:apk/wolfi/keyutils-libs@1.6.3-r41?arch=x86_64\u0026origin=keyutils"
+        }
+      ]
+    },
+    {
+      "name": "keyutils-libs",
+      "SPDXID": "SPDXRef-DocumentRoot-Directory-keyutils-libs",
+      "versionInfo": "1.6.3-r41",
+      "supplier": "Organization: chainguard",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "primaryPackagePurpose": "FILE"
+    }
+  ],
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-Package-apk-keyutils-libs-1.6.3-r41",
+      "relatedSpdxElement": "SPDXRef-Package-Melange-keyutils.yaml-014624f79627768df6f5ff49f4265a7057c2e206",
+      "relationshipType": "DESCRIBED_BY"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-apk-keyutils-libs-1.6.3-r41",
+      "relatedSpdxElement": "SPDXRef-Package-Source-kernel.googlesource.com-pub-scm-linux-kernel-git-dhowells-keyutils.git-v1.6.3-cb3bb194cca88211cbfcdde2f10c0f43c3fb8ec3-0",
+      "relationshipType": "GENERATED_FROM"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relatedSpdxElement": "SPDXRef-Package-apk-keyutils-libs-1.6.3-r41",
+      "relationshipType": "DESCRIBES"
+    },
+    {
+      "spdxElementId": "SPDXRef-DocumentRoot-Directory-keyutils-libs",
+      "relatedSpdxElement": "SPDXRef-Package-apk-keyutils-libs-33941f83b328991d",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-apk-keyutils-libs-1.6.3-r41",
+      "relatedSpdxElement": "SPDXRef-DocumentRoot-Directory-keyutils-libs",
+      "relationshipType": "CONTAINS"
+    }
+  ]
+}

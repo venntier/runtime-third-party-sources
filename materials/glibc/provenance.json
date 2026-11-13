@@ -1,0 +1,135 @@
+{
+  "wolfi_revision": "b05894c521b790b03b8f2dfe1bc573f7e31acb44",
+  "upstream_revision": "47e2b570410fab606de29f550534a721184852c3",
+  "original_recipe_status": "HTTP 404",
+  "original_recipe_revision": "69c2b75e0711c38be3c5881e3a141667ccf54341",
+  "files": [
+    {
+      "path": "glibc-2.44__0001-Link-startup-files-without-package-metadata.patch.txt",
+      "url": "https://raw.githubusercontent.com/wolfi-dev/os/b05894c521b790b03b8f2dfe1bc573f7e31acb44/glibc-2.44/0001-Link-startup-files-without-package-metadata.patch",
+      "sha256": "4fb8772021dcd5f24941b4d031d10b30f81b48d885f71889c669933e5a51d142",
+      "size": 683,
+      "status": "retrieved"
+    },
+    {
+      "path": "glibc-2.44__CVE-2026-84243.patch.txt",
+      "url": "https://raw.githubusercontent.com/wolfi-dev/os/b05894c521b790b03b8f2dfe1bc573f7e31acb44/glibc-2.44/CVE-2026-84243.patch",
+      "sha256": "c79c8e500bdfff56462315aed6e0e1b2c139533d707c79c60ef0b318cc693706",
+      "size": 6766,
+      "status": "retrieved"
+    },
+    {
+      "path": "glibc-2.44__allowed-failures.txt.txt",
+      "url": "https://raw.githubusercontent.com/wolfi-dev/os/b05894c521b790b03b8f2dfe1bc573f7e31acb44/glibc-2.44/allowed-failures.txt",
+      "sha256": "5f46e1d2f6ab2b7797c7af9f6a28e33dfd879382890adc11ac613c19992d66ac",
+      "size": 6057,
+      "status": "retrieved"
+    },
+    {
+      "path": "glibc-2.44__compatibility-gate.txt",
+      "url": "https://raw.githubusercontent.com/wolfi-dev/os/b05894c521b790b03b8f2dfe1bc573f7e31acb44/glibc-2.44/compatibility-gate",
+      "sha256": "c05aa31da812d051753e7932a45d32d3c75168a4dbf4ffbecc31744be3c14bb6",
+      "size": 1762,
+      "status": "retrieved"
+    },
+    {
+      "path": "glibc-2.44__fdo.patch.txt",
+      "url": "https://raw.githubusercontent.com/wolfi-dev/os/b05894c521b790b03b8f2dfe1bc573f7e31acb44/glibc-2.44/fdo.patch",
+      "sha256": "a187de88cb3143c440b33488793ba6dcae5aeb9710d081c587defaba0abb06b4",
+      "size": 488,
+      "status": "retrieved"
+    },
+    {
+      "path": "glibc-2.44__fix-allowed-failures-escaping.patch.txt",
+      "url": "https://raw.githubusercontent.com/wolfi-dev/os/b05894c521b790b03b8f2dfe1bc573f7e31acb44/glibc-2.44/fix-allowed-failures-escaping.patch",
+      "sha256": "d6a7c6a1affc812ce7f0439645bf4311d26572c73284740baeaa6e0c486bb6f3",
+      "size": 1264,
+      "status": "retrieved"
+    },
+    {
+      "path": "glibc-2.44__ldconfig-commit.sh.txt",
+      "url": "https://raw.githubusercontent.com/wolfi-dev/os/b05894c521b790b03b8f2dfe1bc573f7e31acb44/glibc-2.44/ldconfig-commit.sh",
+      "sha256": "3b7637d6b5e83fe60045d8bd6155b971503ba03f447f3670062368da8916227e",
+      "size": 183,
+      "status": "retrieved"
+    },
+    {
+      "path": "glibc-2.44__vendor__ld.so.conf.txt",
+      "url": "https://raw.githubusercontent.com/wolfi-dev/os/b05894c521b790b03b8f2dfe1bc573f7e31acb44/glibc-2.44/vendor/ld.so.conf",
+      "sha256": "27d7ebd402e1b9a20fd3a0663ccc10e1b1feff2d9dfb1ad7dd12bb76cfe0880a",
+      "size": 33,
+      "status": "retrieved"
+    },
+    {
+      "path": "glibc-2.44__vendor__ld.so.conf.d__libc.conf.txt",
+      "url": "https://raw.githubusercontent.com/wolfi-dev/os/b05894c521b790b03b8f2dfe1bc573f7e31acb44/glibc-2.44/vendor/ld.so.conf.d/libc.conf",
+      "sha256": "bb79854205e3e21969d710c2a2b8ea262a7627852f2226cdfe1cb7c72feb7d2d",
+      "size": 24,
+      "status": "retrieved"
+    },
+    {
+      "path": "recipe.yaml.txt",
+      "url": "https://raw.githubusercontent.com/wolfi-dev/os/b05894c521b790b03b8f2dfe1bc573f7e31acb44/glibc-2.44.yaml",
+      "sha256": "67a4267c592cc743109ae0f605a067df693ceec5ddcbd172338fb5d76ff3397b",
+      "size": 48458,
+      "status": "retrieved"
+    },
+    {
+      "path": "COPYING.txt",
+      "url": "https://raw.githubusercontent.com/bminor/glibc/47e2b570410fab606de29f550534a721184852c3/COPYING",
+      "status": "unavailable",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "COPYING.LIB.txt",
+      "url": "https://raw.githubusercontent.com/bminor/glibc/47e2b570410fab606de29f550534a721184852c3/COPYING.LIB",
+      "status": "unavailable",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "LICENSES.txt",
+      "url": "https://raw.githubusercontent.com/bminor/glibc/47e2b570410fab606de29f550534a721184852c3/LICENSES",
+      "status": "unavailable",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "path": "upstream.tar.gz",
+      "url": "https://tarballs.cgr.dev/g/9390037ac2ec26cf74ce7c6709d852e0ce67205355e04fbdb9b9549f47a5bb40-47e2b570410fab606de29f550534a721184852c3.tar.gz",
+      "sha256": "111da63bbfe6bc207e4991baf0a75a4ba43cff6efd69cd507cc62f40fb324eb3",
+      "size": 42974047,
+      "status": "retrieved"
+    },
+    {
+      "path": "LICENSES.txt",
+      "url": "https://tarballs.cgr.dev/g/9390037ac2ec26cf74ce7c6709d852e0ce67205355e04fbdb9b9549f47a5bb40-47e2b570410fab606de29f550534a721184852c3.tar.gz",
+      "archive_member": "glibc-47e2b570410fab606de29f550534a721184852c3/LICENSES",
+      "status": "retrieved",
+      "size": 19665,
+      "sha256": "b22a69aa3f80a5201818c66cb0df0f25f9fa13cf5861b0093a058dbd12d50dce"
+    },
+    {
+      "path": "COPYING.LESSERv2.txt",
+      "url": "https://tarballs.cgr.dev/g/9390037ac2ec26cf74ce7c6709d852e0ce67205355e04fbdb9b9549f47a5bb40-47e2b570410fab606de29f550534a721184852c3.tar.gz",
+      "archive_member": "glibc-47e2b570410fab606de29f550534a721184852c3/COPYING.LESSERv2",
+      "status": "retrieved",
+      "size": 26419,
+      "sha256": "20e50fe7aae3e56378ebf0417d9de904f55a0e61e4df315333e632a4d3555d95"
+    },
+    {
+      "path": "COPYINGv2.txt",
+      "url": "https://tarballs.cgr.dev/g/9390037ac2ec26cf74ce7c6709d852e0ce67205355e04fbdb9b9549f47a5bb40-47e2b570410fab606de29f550534a721184852c3.tar.gz",
+      "archive_member": "glibc-47e2b570410fab606de29f550534a721184852c3/COPYINGv2",
+      "status": "retrieved",
+      "size": 17984,
+      "sha256": "edaef632cbb643e4e7a221717a6c441a4c1a7c918e6e4d56debc3d8739b233f6"
+    },
+    {
+      "path": "COPYINGv3.txt",
+      "url": "https://tarballs.cgr.dev/g/9390037ac2ec26cf74ce7c6709d852e0ce67205355e04fbdb9b9549f47a5bb40-47e2b570410fab606de29f550534a721184852c3.tar.gz",
+      "archive_member": "glibc-47e2b570410fab606de29f550534a721184852c3/COPYINGv3",
+      "status": "retrieved",
+      "size": 35149,
+      "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
+    }
+  ]
+}

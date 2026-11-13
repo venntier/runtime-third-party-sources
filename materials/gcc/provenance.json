@@ -1,0 +1,144 @@
+{
+  "wolfi_revision": "b05894c521b790b03b8f2dfe1bc573f7e31acb44",
+  "gcc_revision": "78d4ac73dd391005b895a6148cd9831e28e1208b",
+  "files": [
+    {
+      "url": "https://raw.githubusercontent.com/wolfi-dev/os/b05894c521b790b03b8f2dfe1bc573f7e31acb44/krb5-conf.yaml",
+      "path": "krb5-conf.yaml",
+      "status": 0,
+      "sha256": "512582079e2ec80f45534ce248c97df737a55ebb19cf93a26b4a4e5e2537b082"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/wolfi-dev/os/b05894c521b790b03b8f2dfe1bc573f7e31acb44/krb5-conf/krb5.conf",
+      "path": "krb5-conf__krb5.conf",
+      "status": 0,
+      "sha256": "65d88c9b21d4083a12d09807fe98cf38513e30ff5673187837c628958f60d008"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/wolfi-dev/os/b05894c521b790b03b8f2dfe1bc573f7e31acb44/wolfi-baselayout.yaml",
+      "path": "wolfi-baselayout.yaml",
+      "status": 0,
+      "sha256": "8e4fe2e6d4a5866c4f03ad6e0f02cad8b8198598e2e6abcebbcca574fd6ee0cb"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/wolfi-dev/os/b05894c521b790b03b8f2dfe1bc573f7e31acb44/gcc.yaml",
+      "path": "gcc.yaml",
+      "status": 0,
+      "sha256": "61497fe7b811665545e9a4a7e09b182de8e42731f23e676dd2e5903620fbcc11"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/wolfi-dev/os/b05894c521b790b03b8f2dfe1bc573f7e31acb44/gcc/optc-gen-awk-gawk-compat.patch",
+      "path": "gcc__optc-gen-awk-gawk-compat.patch",
+      "status": 0,
+      "sha256": "d5159ddde115f8bd47a0bfda87a388bda7edd2218aa4c1c1b74f942fb40431f0"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/wolfi-dev/os/b05894c521b790b03b8f2dfe1bc573f7e31acb44/LICENSE",
+      "path": "LICENSE",
+      "status": 0,
+      "sha256": "5f7a57459627fff76b53831c6582d839da4cbd8d31de642452f28dd0adcb4d01"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/gcc-mirror/gcc/78d4ac73dd391005b895a6148cd9831e28e1208b/COPYING.RUNTIME",
+      "path": "gcc__COPYING.RUNTIME",
+      "status": 0,
+      "sha256": "9d6b43ce4d8de0c878bf16b54d8e7a10d9bd42b75178153e3af6a815bdc90f74"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/gcc-mirror/gcc/78d4ac73dd391005b895a6148cd9831e28e1208b/COPYING3",
+      "path": "gcc__COPYING3",
+      "status": 0,
+      "sha256": "8ceb4b9ee5adedde47b31e975c1d90c73ad27b6b165a1dcd80c7c545eb65b903"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/gcc-mirror/gcc/78d4ac73dd391005b895a6148cd9831e28e1208b/libgcc/libgcc2.c",
+      "path": "gcc__libgcc__libgcc2.c",
+      "status": 0,
+      "sha256": "83e1247be3f78dd8c70d32c4df95f04161c0f47838cf62be8cdb5b9eb2f06c34"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/gcc-mirror/gcc/78d4ac73dd391005b895a6148cd9831e28e1208b/libstdc++-v3/COPYING3",
+      "path": "gcc__libstdc++-v3__COPYING3",
+      "status": 22,
+      "sha256": null
+    },
+    {
+      "url": "https://raw.githubusercontent.com/gcc-mirror/gcc/78d4ac73dd391005b895a6148cd9831e28e1208b/libstdc++-v3/COPYING.RUNTIME",
+      "path": "gcc__libstdc++-v3__COPYING.RUNTIME",
+      "status": 22,
+      "sha256": null
+    },
+    {
+      "url": "https://raw.githubusercontent.com/wolfi-dev/os/b05894c521b790b03b8f2dfe1bc573f7e31acb44/wolfi-baselayout/vendor/etc/group",
+      "path": "baselayout__group",
+      "status": 0,
+      "sha256": "36b65d2f37b425b85562a472536706cf9b6dd51915a664080e1717f8061f73c1"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/wolfi-dev/os/b05894c521b790b03b8f2dfe1bc573f7e31acb44/wolfi-baselayout/vendor/etc/hosts",
+      "path": "baselayout__hosts",
+      "status": 0,
+      "sha256": "e3998dbe02b51dada33de87ae43d18a93ab6915b9e34f5a751bf2b9b25a55492"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/wolfi-dev/os/b05894c521b790b03b8f2dfe1bc573f7e31acb44/wolfi-baselayout/vendor/etc/motd",
+      "path": "baselayout__motd",
+      "status": 0,
+      "sha256": "a18f2e28c9eb53b27da14261c98ecc27d5daadb200b8e219b38a98babe8ce23f"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/wolfi-dev/os/b05894c521b790b03b8f2dfe1bc573f7e31acb44/wolfi-baselayout/vendor/etc/nsswitch.conf",
+      "path": "baselayout__nsswitch.conf",
+      "status": 0,
+      "sha256": "b0e81dd0825cba9e39affd4c64f86e3ab983bb731789f19819215c0eadeab7be"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/wolfi-dev/os/b05894c521b790b03b8f2dfe1bc573f7e31acb44/wolfi-baselayout/vendor/etc/passwd",
+      "path": "baselayout__passwd",
+      "status": 0,
+      "sha256": "26046780a33116aece16e4f4c0ed127df999fa62635915f5e0c6b9d9c898fdc1"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/wolfi-dev/os/b05894c521b790b03b8f2dfe1bc573f7e31acb44/wolfi-baselayout/vendor/etc/profile",
+      "path": "baselayout__profile",
+      "status": 0,
+      "sha256": "24f1f6128f240648abb57b5b4a6f05ddeb65c73090b75bf1c879ed95f969a741"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/wolfi-dev/os/b05894c521b790b03b8f2dfe1bc573f7e31acb44/wolfi-baselayout/vendor/etc/profile.d/locale.sh",
+      "path": "baselayout__profile.d__locale.sh",
+      "status": 0,
+      "sha256": "84eb9034099d759ff08e6da5a731cacfc63a319547ad0f1dfc1c64853aca93f2"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/wolfi-dev/os/b05894c521b790b03b8f2dfe1bc573f7e31acb44/wolfi-baselayout/vendor/etc/protocols",
+      "path": "baselayout__protocols",
+      "status": 0,
+      "sha256": "a90a2be9c2a88be6fbfc1fc73ba76f34698377bb19513e5de503dbb0bfe13be1"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/wolfi-dev/os/b05894c521b790b03b8f2dfe1bc573f7e31acb44/wolfi-baselayout/vendor/etc/secfixes.d/wolfi",
+      "path": "baselayout__secfixes.d__wolfi",
+      "status": 0,
+      "sha256": "fe0d31329e650f504c836dc259f5509cbfe6431920bf4b2b5b1d75dd02083145"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/wolfi-dev/os/b05894c521b790b03b8f2dfe1bc573f7e31acb44/wolfi-baselayout/vendor/etc/services",
+      "path": "baselayout__services",
+      "status": 0,
+      "sha256": "2a0b38b5fb03512134c9d9cf2e73a8ab4cbc3f6de95ee19dfe4b290268109493"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/wolfi-dev/os/b05894c521b790b03b8f2dfe1bc573f7e31acb44/wolfi-baselayout/vendor/etc/shells",
+      "path": "baselayout__shells",
+      "status": 0,
+      "sha256": "35fa7f9244d299e08104d223b43e92d746dadb7d7b2d7df6281a60f675b0237d"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/spdx/license-list-data/main/text/MIT.txt",
+      "path": "MIT.txt",
+      "status": 0,
+      "sha256": "b05785f9f18e6716bab63424b11454513b9943a222595b70411009202fc592b5"
+    }
+  ]
+}

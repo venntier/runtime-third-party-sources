@@ -1,0 +1,146 @@
+{
+  "spdxVersion": "SPDX-2.3",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "name": "apk-libcap-ng-0.9.6-r1",
+  "documentNamespace": "https://spdx.org/spdxdocs/chainguard/build/33465ba915d69b631f70a76a254ad349",
+  "creationInfo": {
+    "licenseListVersion": "3.22",
+    "creators": [
+      "Tool: chainguard-build (v0.62.0)",
+      "Organization: Chainguard, Inc"
+    ],
+    "created": "2026-10-10T09:43:03Z"
+  },
+  "packages": [
+    {
+      "name": "wolfi",
+      "SPDXID": "SPDXRef-OperatingSystem",
+      "supplier": "Organization: Wolfi",
+      "originator": "Organization: Wolfi",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "description": "Operating System",
+      "primaryPackagePurpose": "OPERATING-SYSTEM"
+    },
+    {
+      "name": "libcap-ng",
+      "SPDXID": "SPDXRef-Package-apk-libcap-ng-0.9.6-r1",
+      "versionInfo": "0.9.6-r1",
+      "supplier": "Organization: Wolfi",
+      "originator": "Organization: Wolfi",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "GPL-2.0-or-later AND LGPL-2.1-or-later",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:apk/wolfi/libcap-ng@0.9.6-r1?arch=x86_64\u0026distro=wolfi"
+        }
+      ],
+      "primaryPackagePurpose": "APPLICATION"
+    },
+    {
+      "name": "libcap-ng.yaml",
+      "SPDXID": "SPDXRef-Package-Melange-libcap-ng.yaml-f215820222896551fbca0974305bcaa5e7fbe7b7",
+      "versionInfo": "f215820222896551fbca0974305bcaa5e7fbe7b7",
+      "supplier": "Organization: Wolfi",
+      "originator": "Organization: Wolfi",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:github/chainguard-dev/stereo@f215820222896551fbca0974305bcaa5e7fbe7b7#libcap-ng.yaml"
+        }
+      ],
+      "primaryPackagePurpose": "INSTALL"
+    },
+    {
+      "name": "libcap-ng",
+      "SPDXID": "SPDXRef-Package-Source-github.com-stevegrubb-libcap-ng.git-v0.9.6-c382c641ca5730442289c09d3c3d30cc2c8635a9-0",
+      "versionInfo": "v0.9.6",
+      "supplier": "Organization: Stevegrubb",
+      "originator": "Organization: Stevegrubb",
+      "downloadLocation": "https://github.com/stevegrubb/libcap-ng/archive/c382c641ca5730442289c09d3c3d30cc2c8635a9.tar.gz",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "GPL-2.0-or-later AND LGPL-2.1-or-later",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:github/stevegrubb/libcap-ng@v0.9.6"
+        }
+      ],
+      "primaryPackagePurpose": "SOURCE"
+    },
+    {
+      "name": "libcap-ng",
+      "SPDXID": "SPDXRef-Package-apk-libcap-ng-394433544b5ce89f",
+      "versionInfo": "0.9.6-r1",
+      "supplier": "Organization: chainguard",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "sourceInfo": "acquired package info from APK DB: /.PKGINFO",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "(GPL-2.0-or-later AND LGPL-2.1-or-later)",
+      "copyrightText": "NOASSERTION",
+      "description": "POSIX capabilities library",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:apk/wolfi/libcap-ng@0.9.6-r1?arch=x86_64\u0026origin=libcap-ng"
+        }
+      ]
+    },
+    {
+      "name": "libcap-ng",
+      "SPDXID": "SPDXRef-DocumentRoot-Directory-libcap-ng",
+      "versionInfo": "0.9.6-r1",
+      "supplier": "Organization: chainguard",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "primaryPackagePurpose": "FILE"
+    }
+  ],
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-Package-apk-libcap-ng-0.9.6-r1",
+      "relatedSpdxElement": "SPDXRef-Package-Melange-libcap-ng.yaml-f215820222896551fbca0974305bcaa5e7fbe7b7",
+      "relationshipType": "DESCRIBED_BY"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-apk-libcap-ng-0.9.6-r1",
+      "relatedSpdxElement": "SPDXRef-Package-Source-github.com-stevegrubb-libcap-ng.git-v0.9.6-c382c641ca5730442289c09d3c3d30cc2c8635a9-0",
+      "relationshipType": "GENERATED_FROM"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relatedSpdxElement": "SPDXRef-Package-apk-libcap-ng-0.9.6-r1",
+      "relationshipType": "DESCRIBES"
+    },
+    {
+      "spdxElementId": "SPDXRef-DocumentRoot-Directory-libcap-ng",
+      "relatedSpdxElement": "SPDXRef-Package-apk-libcap-ng-394433544b5ce89f",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-apk-libcap-ng-0.9.6-r1",
+      "relatedSpdxElement": "SPDXRef-DocumentRoot-Directory-libcap-ng",
+      "relationshipType": "CONTAINS"
+    }
+  ]
+}

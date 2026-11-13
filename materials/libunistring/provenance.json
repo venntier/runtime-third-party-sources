@@ -1,0 +1,32 @@
+{
+  "package": "libunistring-1.5-r1.spdx.json",
+  "sources": [
+    {
+      "url": "https://tarballs.cgr.dev/g/8647b56477282eff9978402011260dd5cf99ea235db78088a35a84c76d6356c8-9a0b11a515258048ba17f05009cbd317298de92d.tar.gz",
+      "sha256": "5a85794d015c2fd605cae6548e209150ba26386855318ad61f0f7ff71e4b7aff",
+      "accessible": true
+    }
+  ],
+  "materials": [
+    {
+      "file": "COPYING.txt",
+      "upstream_path": "libunistring-9a0b11a515258048ba17f05009cbd317298de92d/COPYING",
+      "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
+    },
+    {
+      "file": "COPYING.LIB.txt",
+      "upstream_path": "libunistring-9a0b11a515258048ba17f05009cbd317298de92d/COPYING.LIB",
+      "sha256": "a853c2ffec17057872340eee242ae4d96cbf2b520ae27d903e1b2fef1a5f9d1c"
+    },
+    {
+      "file": "recipe.yaml.txt",
+      "upstream_path": "https://raw.githubusercontent.com/wolfi-dev/os/b05894c521b790b03b8f2dfe1bc573f7e31acb44/libunistring.yaml",
+      "sha256": "f0f1d98dbf6d07c73f811020174f3ef0b6b2ba76a88f1a51f64840c50837e436"
+    }
+  ],
+  "original_recipe": {
+    "url": "https://raw.githubusercontent.com/chainguard-dev/stereo/d8c1739b8ac0376433f810660cfe5c19987e66d2/libunistring.yaml",
+    "accessible": false,
+    "error": "HTTP Error 404: Not Found"
+  }
+}

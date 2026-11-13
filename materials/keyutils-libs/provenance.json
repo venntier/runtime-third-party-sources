@@ -1,0 +1,42 @@
+{
+  "package": "keyutils-libs-1.6.3-r41.spdx.json",
+  "sources": [
+    {
+      "url": "https://tarballs.cgr.dev/p/c4263df0120f9cbea0297c9b6574d5bafd566f98b9cec2e39be1c0e378836781-cb3bb194cca88211cbfcdde2f10c0f43c3fb8ec3.tar.gz",
+      "sha256": "826e838b41a2adacb119cdf19734af69cdedd4e93c50498aa845898fa729515d",
+      "accessible": true
+    }
+  ],
+  "materials": [
+    {
+      "file": "LICENCE.GPL.txt",
+      "upstream_path": "keyutils-cb3bb194cca88211cbfcdde2f10c0f43c3fb8ec3/LICENCE.GPL",
+      "sha256": "f46409d4822b2457b39bbd0e7881eecb396130eb8320b7748fa7e9488970aa6d"
+    },
+    {
+      "file": "LICENCE.LGPL.txt",
+      "upstream_path": "keyutils-cb3bb194cca88211cbfcdde2f10c0f43c3fb8ec3/LICENCE.LGPL",
+      "sha256": "0d15593e3a8ad90917f8509b5ac1e4b5e5d196434a68029aa9dc0858a4a4c521"
+    },
+    {
+      "file": "recipe.yaml.txt",
+      "upstream_path": "https://raw.githubusercontent.com/wolfi-dev/os/b05894c521b790b03b8f2dfe1bc573f7e31acb44/keyutils.yaml",
+      "sha256": "c9b33731d16ce7a78523ad160e8a7c978ec190f394c5730314867eeb07c3b539"
+    },
+    {
+      "file": "README.txt",
+      "upstream_path": "keyutils-cb3bb194cca88211cbfcdde2f10c0f43c3fb8ec3/README",
+      "sha256": "f128299d9fa838f3bd786510636cfe4673289a6cc99b7f5bffb752de03d4ec84"
+    },
+    {
+      "file": "keyutils.c.txt",
+      "upstream_path": "keyutils-cb3bb194cca88211cbfcdde2f10c0f43c3fb8ec3/keyutils.c",
+      "sha256": "19d1b02b73218c79ec13f0e3ceb8760fa0cd1b3434bc2169d367c3d1d6540289"
+    }
+  ],
+  "original_recipe": {
+    "url": "https://raw.githubusercontent.com/chainguard-dev/stereo/014624f79627768df6f5ff49f4265a7057c2e206/keyutils.yaml",
+    "accessible": false,
+    "error": "HTTP Error 404: Not Found"
+  }
+}

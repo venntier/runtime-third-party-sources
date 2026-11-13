@@ -1,0 +1,27 @@
+{
+  "package": "readline-8.3-r3.spdx.json",
+  "sources": [
+    {
+      "url": "https://tarballs.cgr.dev/g/ca1544b7a4361c29393002e6b6d7b40cf760179801b69a5c375d2d2ed53e109a-447b8290b3e2e2d117dc8e9cdb83b0dc6448a638.tar.gz",
+      "sha256": "737e781b0e6c3ac001e5e71703aff8347114e00b7e595b3e8dc6be22189ba13c",
+      "accessible": true
+    }
+  ],
+  "materials": [
+    {
+      "file": "COPYING.txt",
+      "upstream_path": "readline-447b8290b3e2e2d117dc8e9cdb83b0dc6448a638/COPYING",
+      "sha256": "8ceb4b9ee5adedde47b31e975c1d90c73ad27b6b165a1dcd80c7c545eb65b903"
+    },
+    {
+      "file": "recipe.yaml.txt",
+      "upstream_path": "https://raw.githubusercontent.com/wolfi-dev/os/b05894c521b790b03b8f2dfe1bc573f7e31acb44/readline.yaml",
+      "sha256": "59913ddced0872734e891a3e773b23fa46346db9729b5fcdc87e01fb06ef1cad"
+    }
+  ],
+  "original_recipe": {
+    "url": "https://raw.githubusercontent.com/chainguard-dev/stereo/20a5359ac0a7a6aca23efa343f0f29c8d3ea1453/readline.yaml",
+    "accessible": false,
+    "error": "HTTP Error 404: Not Found"
+  }
+}

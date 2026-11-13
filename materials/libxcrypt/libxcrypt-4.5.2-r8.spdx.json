@@ -1,0 +1,146 @@
+{
+  "spdxVersion": "SPDX-2.3",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "name": "apk-libxcrypt-4.5.2-r8",
+  "documentNamespace": "https://spdx.org/spdxdocs/chainguard/build/c9107a1c36327a8f4ee79e5f6f099e46",
+  "creationInfo": {
+    "licenseListVersion": "3.22",
+    "creators": [
+      "Tool: chainguard-build (v0.63.2)",
+      "Organization: Chainguard, Inc"
+    ],
+    "created": "2026-11-05T19:11:38Z"
+  },
+  "packages": [
+    {
+      "name": "wolfi",
+      "SPDXID": "SPDXRef-OperatingSystem",
+      "supplier": "Organization: Wolfi",
+      "originator": "Organization: Wolfi",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "description": "Operating System",
+      "primaryPackagePurpose": "OPERATING-SYSTEM"
+    },
+    {
+      "name": "libxcrypt",
+      "SPDXID": "SPDXRef-Package-apk-libxcrypt-4.5.2-r8",
+      "versionInfo": "4.5.2-r8",
+      "supplier": "Organization: Wolfi",
+      "originator": "Organization: Wolfi",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "GPL-2.0-or-later AND LGPL-2.1-or-later",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:apk/wolfi/libxcrypt@4.5.2-r8?arch=x86_64\u0026distro=wolfi"
+        }
+      ],
+      "primaryPackagePurpose": "APPLICATION"
+    },
+    {
+      "name": "libxcrypt.yaml",
+      "SPDXID": "SPDXRef-Package-Melange-libxcrypt.yaml-b9898dbb7125f3678bc8c6cd9e7a43d9d9d2c518",
+      "versionInfo": "b9898dbb7125f3678bc8c6cd9e7a43d9d9d2c518",
+      "supplier": "Organization: Wolfi",
+      "originator": "Organization: Wolfi",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:github/chainguard-dev/stereo@b9898dbb7125f3678bc8c6cd9e7a43d9d9d2c518#libxcrypt.yaml"
+        }
+      ],
+      "primaryPackagePurpose": "INSTALL"
+    },
+    {
+      "name": "libxcrypt",
+      "SPDXID": "SPDXRef-Package-Source-github.com-besser82-libxcrypt-v4.5.2-db70b42bd7b2a5b00a8580c8dec0aa66791c950a-0",
+      "versionInfo": "v4.5.2",
+      "supplier": "Organization: Besser82",
+      "originator": "Organization: Besser82",
+      "downloadLocation": "https://github.com/besser82/libxcrypt/archive/db70b42bd7b2a5b00a8580c8dec0aa66791c950a.tar.gz",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "GPL-2.0-or-later AND LGPL-2.1-or-later",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:github/besser82/libxcrypt@v4.5.2"
+        }
+      ],
+      "primaryPackagePurpose": "SOURCE"
+    },
+    {
+      "name": "libxcrypt",
+      "SPDXID": "SPDXRef-Package-apk-libxcrypt-46c52164e01d9aa1",
+      "versionInfo": "4.5.2-r8",
+      "supplier": "Organization: chainguard",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "sourceInfo": "acquired package info from APK DB: /.PKGINFO",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "(GPL-2.0-or-later AND LGPL-2.1-or-later)",
+      "copyrightText": "NOASSERTION",
+      "description": "Modern library for one-way hashing of passwords",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:apk/wolfi/libxcrypt@4.5.2-r8?arch=x86_64\u0026origin=libxcrypt"
+        }
+      ]
+    },
+    {
+      "name": "libxcrypt",
+      "SPDXID": "SPDXRef-DocumentRoot-Directory-libxcrypt",
+      "versionInfo": "4.5.2-r8",
+      "supplier": "Organization: chainguard",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "primaryPackagePurpose": "FILE"
+    }
+  ],
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-Package-apk-libxcrypt-4.5.2-r8",
+      "relatedSpdxElement": "SPDXRef-Package-Melange-libxcrypt.yaml-b9898dbb7125f3678bc8c6cd9e7a43d9d9d2c518",
+      "relationshipType": "DESCRIBED_BY"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-apk-libxcrypt-4.5.2-r8",
+      "relatedSpdxElement": "SPDXRef-Package-Source-github.com-besser82-libxcrypt-v4.5.2-db70b42bd7b2a5b00a8580c8dec0aa66791c950a-0",
+      "relationshipType": "GENERATED_FROM"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relatedSpdxElement": "SPDXRef-Package-apk-libxcrypt-4.5.2-r8",
+      "relationshipType": "DESCRIBES"
+    },
+    {
+      "spdxElementId": "SPDXRef-DocumentRoot-Directory-libxcrypt",
+      "relatedSpdxElement": "SPDXRef-Package-apk-libxcrypt-46c52164e01d9aa1",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-apk-libxcrypt-4.5.2-r8",
+      "relatedSpdxElement": "SPDXRef-DocumentRoot-Directory-libxcrypt",
+      "relationshipType": "CONTAINS"
+    }
+  ]
+}

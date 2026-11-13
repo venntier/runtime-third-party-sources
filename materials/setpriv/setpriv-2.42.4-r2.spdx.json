@@ -1,0 +1,146 @@
+{
+  "spdxVersion": "SPDX-2.3",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "name": "apk-setpriv-2.42.4-r2",
+  "documentNamespace": "https://spdx.org/spdxdocs/chainguard/build/3aa134bfe86cd2b3d2b7a5161382124d",
+  "creationInfo": {
+    "licenseListVersion": "3.22",
+    "creators": [
+      "Tool: chainguard-build (v0.63.1)",
+      "Organization: Chainguard, Inc"
+    ],
+    "created": "2026-10-30T11:09:05Z"
+  },
+  "packages": [
+    {
+      "name": "wolfi",
+      "SPDXID": "SPDXRef-OperatingSystem",
+      "supplier": "Organization: Wolfi",
+      "originator": "Organization: Wolfi",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "description": "Operating System",
+      "primaryPackagePurpose": "OPERATING-SYSTEM"
+    },
+    {
+      "name": "setpriv",
+      "SPDXID": "SPDXRef-Package-apk-setpriv-2.42.4-r2",
+      "versionInfo": "2.42.4-r2",
+      "supplier": "Organization: Wolfi",
+      "originator": "Organization: Wolfi",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "GPL-3.0-or-later AND GPL-2.0-or-later AND GPL-2.0-only AND GPL-1.0-only AND LGPL-2.1-or-later AND BSD-1-Clause AND BSD-2-Clause AND BSD-3-Clause AND BSD-4-Clause-UC AND MIT AND CC-PDDC",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:apk/wolfi/setpriv@2.42.4-r2?arch=x86_64\u0026distro=wolfi"
+        }
+      ],
+      "primaryPackagePurpose": "APPLICATION"
+    },
+    {
+      "name": "util-linux.yaml",
+      "SPDXID": "SPDXRef-Package-Melange-util-linux.yaml-8298ba7be686605b03c1943f22ccf5a0640e0042",
+      "versionInfo": "8298ba7be686605b03c1943f22ccf5a0640e0042",
+      "supplier": "Organization: Wolfi",
+      "originator": "Organization: Wolfi",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:github/chainguard-dev/stereo@8298ba7be686605b03c1943f22ccf5a0640e0042#util-linux.yaml"
+        }
+      ],
+      "primaryPackagePurpose": "INSTALL"
+    },
+    {
+      "name": "util-linux",
+      "SPDXID": "SPDXRef-Package-Source-github.com-util-linux-util-linux-v2.42.4-d76cbf8f13e65ff657344f7f6a90042cf755ba59-0",
+      "versionInfo": "v2.42.4",
+      "supplier": "Organization: Util-Linux",
+      "originator": "Organization: Util-Linux",
+      "downloadLocation": "https://github.com/util-linux/util-linux/archive/d76cbf8f13e65ff657344f7f6a90042cf755ba59.tar.gz",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "GPL-3.0-or-later AND GPL-2.0-or-later AND GPL-2.0-only AND GPL-1.0-only AND LGPL-2.1-or-later AND BSD-1-Clause AND BSD-2-Clause AND BSD-3-Clause AND BSD-4-Clause-UC AND MIT AND CC-PDDC",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:github/util-linux/util-linux@v2.42.4"
+        }
+      ],
+      "primaryPackagePurpose": "SOURCE"
+    },
+    {
+      "name": "setpriv",
+      "SPDXID": "SPDXRef-Package-apk-setpriv-4634997bc9d733cd",
+      "versionInfo": "2.42.4-r2",
+      "supplier": "Organization: chainguard",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "sourceInfo": "acquired package info from APK DB: /.PKGINFO",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "(GPL-3.0-or-later AND GPL-2.0-or-later AND GPL-2.0-only AND GPL-1.0-only AND LGPL-2.1-or-later AND BSD-1-Clause AND BSD-2-Clause AND BSD-3-Clause AND BSD-4-Clause-UC AND MIT AND CC-PDDC)",
+      "copyrightText": "NOASSERTION",
+      "description": "Run a program with different Linux privilege settings",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:apk/wolfi/setpriv@2.42.4-r2?arch=x86_64\u0026origin=util-linux"
+        }
+      ]
+    },
+    {
+      "name": "setpriv",
+      "SPDXID": "SPDXRef-DocumentRoot-Directory-setpriv",
+      "versionInfo": "2.42.4-r2",
+      "supplier": "Organization: chainguard",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "primaryPackagePurpose": "FILE"
+    }
+  ],
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-Package-apk-setpriv-2.42.4-r2",
+      "relatedSpdxElement": "SPDXRef-Package-Melange-util-linux.yaml-8298ba7be686605b03c1943f22ccf5a0640e0042",
+      "relationshipType": "DESCRIBED_BY"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-apk-setpriv-2.42.4-r2",
+      "relatedSpdxElement": "SPDXRef-Package-Source-github.com-util-linux-util-linux-v2.42.4-d76cbf8f13e65ff657344f7f6a90042cf755ba59-0",
+      "relationshipType": "GENERATED_FROM"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relatedSpdxElement": "SPDXRef-Package-apk-setpriv-2.42.4-r2",
+      "relationshipType": "DESCRIBES"
+    },
+    {
+      "spdxElementId": "SPDXRef-DocumentRoot-Directory-setpriv",
+      "relatedSpdxElement": "SPDXRef-Package-apk-setpriv-4634997bc9d733cd",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-apk-setpriv-2.42.4-r2",
+      "relatedSpdxElement": "SPDXRef-DocumentRoot-Directory-setpriv",
+      "relationshipType": "CONTAINS"
+    }
+  ]
+}

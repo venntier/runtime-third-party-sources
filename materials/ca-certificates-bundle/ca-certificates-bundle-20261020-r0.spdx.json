@@ -1,0 +1,145 @@
+{
+  "spdxVersion": "SPDX-2.3",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "name": "apk-ca-certificates-bundle-20261020-r0",
+  "documentNamespace": "https://spdx.org/spdxdocs/chainguard/build/3b0ffee63057747fe7aecfddb3b65847",
+  "creationInfo": {
+    "licenseListVersion": "3.22",
+    "creators": [
+      "Tool: chainguard-build (v0.62.1)",
+      "Organization: Chainguard, Inc"
+    ],
+    "created": "2026-10-26T11:07:22Z"
+  },
+  "packages": [
+    {
+      "name": "wolfi",
+      "SPDXID": "SPDXRef-OperatingSystem",
+      "supplier": "Organization: Wolfi",
+      "originator": "Organization: Wolfi",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "description": "Operating System",
+      "primaryPackagePurpose": "OPERATING-SYSTEM"
+    },
+    {
+      "name": "ca-certificates-bundle",
+      "SPDXID": "SPDXRef-Package-apk-ca-certificates-bundle-20261020-r0",
+      "versionInfo": "20261020-r0",
+      "supplier": "Organization: Wolfi",
+      "originator": "Organization: Wolfi",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "MPL-2.0 AND MIT",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:apk/wolfi/ca-certificates-bundle@20261020-r0?arch=x86_64\u0026distro=wolfi"
+        }
+      ],
+      "primaryPackagePurpose": "APPLICATION"
+    },
+    {
+      "name": "ca-certificates.yaml",
+      "SPDXID": "SPDXRef-Package-Melange-ca-certificates.yaml-8061afafa65af5a9026707a8880e14120dd6f4a0",
+      "versionInfo": "8061afafa65af5a9026707a8880e14120dd6f4a0",
+      "supplier": "Organization: Wolfi",
+      "originator": "Organization: Wolfi",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:github/chainguard-dev/stereo@8061afafa65af5a9026707a8880e14120dd6f4a0#ca-certificates.yaml"
+        }
+      ],
+      "primaryPackagePurpose": "INSTALL"
+    },
+    {
+      "name": "alpine/ca-certificates",
+      "SPDXID": "SPDXRef-Package-Source-gitlab.alpinelinux.org-alpine-ca-certificates-20261020-2058424fda70ee478bcce872dcf141a0c5499ee0-0",
+      "versionInfo": "20261020",
+      "supplier": "Organization: Wolfi",
+      "originator": "Organization: Wolfi",
+      "downloadLocation": "https://tarballs.cgr.dev/a/f7f6555663adc30d4e3c43a90ddef6942dabe93d06f7a7201cf29d993222346a-2058424fda70ee478bcce872dcf141a0c5499ee0.tar.gz",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "MPL-2.0 AND MIT",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:generic/alpine%2Fca-certificates@20261020?vcs_url=git%2Bhttps:%2F%2Fgitlab.alpinelinux.org%2Falpine%2Fca-certificates%402058424fda70ee478bcce872dcf141a0c5499ee0"
+        }
+      ],
+      "primaryPackagePurpose": "SOURCE"
+    },
+    {
+      "name": "ca-certificates-bundle",
+      "SPDXID": "SPDXRef-Package-apk-ca-certificates-bundle-3a36aed2688bdba8",
+      "versionInfo": "20261020-r0",
+      "supplier": "Organization: chainguard",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "sourceInfo": "acquired package info from APK DB: /.PKGINFO",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "(MPL-2.0 AND MIT)",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:apk/wolfi/ca-certificates-bundle@20261020-r0?arch=x86_64\u0026origin=ca-certificates"
+        }
+      ]
+    },
+    {
+      "name": "ca-certificates-bundle",
+      "SPDXID": "SPDXRef-DocumentRoot-Directory-ca-certificates-bundle",
+      "versionInfo": "20261020-r0",
+      "supplier": "Organization: chainguard",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "primaryPackagePurpose": "FILE"
+    }
+  ],
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-Package-apk-ca-certificates-bundle-20261020-r0",
+      "relatedSpdxElement": "SPDXRef-Package-Melange-ca-certificates.yaml-8061afafa65af5a9026707a8880e14120dd6f4a0",
+      "relationshipType": "DESCRIBED_BY"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-apk-ca-certificates-bundle-20261020-r0",
+      "relatedSpdxElement": "SPDXRef-Package-Source-gitlab.alpinelinux.org-alpine-ca-certificates-20261020-2058424fda70ee478bcce872dcf141a0c5499ee0-0",
+      "relationshipType": "GENERATED_FROM"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relatedSpdxElement": "SPDXRef-Package-apk-ca-certificates-bundle-20261020-r0",
+      "relationshipType": "DESCRIBES"
+    },
+    {
+      "spdxElementId": "SPDXRef-DocumentRoot-Directory-ca-certificates-bundle",
+      "relatedSpdxElement": "SPDXRef-Package-apk-ca-certificates-bundle-3a36aed2688bdba8",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-apk-ca-certificates-bundle-20261020-r0",
+      "relatedSpdxElement": "SPDXRef-DocumentRoot-Directory-ca-certificates-bundle",
+      "relationshipType": "CONTAINS"
+    }
+  ]
+}

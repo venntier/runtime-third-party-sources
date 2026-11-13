@@ -1,0 +1,125 @@
+package:
+  name: libidn2
+  version: "2.3.8"
+  epoch: 12 # upstream-tests/make-check
+  description: Encode/Decode library for internationalized domain names
+  copyright:
+    - license: GPL-2.0-or-later AND LGPL-3.0-or-later
+  resources:
+    cpu: "2"
+    memory: 4Gi
+
+environment:
+  contents:
+    packages:
+      - autoconf
+      - automake
+      - build-base
+      - busybox
+      - ca-certificates-bundle
+      - coreutils
+      - gengetopt
+      - gettext-dev
+      - glibc-2.44-dev
+      - gperf
+      - help2man
+      - libtool
+      - libunistring-dev
+      - patch
+      - python-3.13
+      - texinfo
+      - wget
+
+pipeline:
+  - uses: git-checkout
+    with:
+      repository: https://gitlab.com/libidn/libidn2
+      tag: v${{package.version}}
+      expected-commit: 9bc3ac79e2ae81ade245a0e308bf13c981efaa83
+
+  - uses: git/gnulib-bootstrap
+
+  - uses: autoconf/configure
+    with:
+      opts: |
+        --host=${{host.triplet.gnu}} \
+        --build=${{host.triplet.gnu}} \
+        --disable-nls
+
+  - uses: autoconf/make
+
+  - uses: autoconf/make-install
+
+  - uses: upstream-tests/make-check
+
+  - uses: strip
+
+subpackages:
+  - name: idn2-utils
+    pipeline:
+      - runs: |
+          mkdir -p "${{targets.subpkgdir}}"/usr
+          mv ${{targets.destdir}}/usr/bin ${{targets.subpkgdir}}/usr/
+    description: libidn2  (CLI utilities)
+    test:
+      pipeline:
+        - runs: |
+            idn2 --version
+            idn2 --help
+        - name: Encode internationalized domain name to ACE form
+          runs: |
+            # Encode a Unicode domain name to its ACE (punycode) form
+            # LANG=C.UTF-8 is required: the test environment has no UTF-8 locale
+            # configured by default, causing idn2 to fail with "could not convert
+            # string to UTF-8". C.UTF-8 is a built-in glibc locale that needs no
+            # extra packages.
+            export LANG=C.UTF-8
+            result=$(echo "münchen.de" | idn2)
+            echo "Encoded: $result"
+            [ "$result" = "xn--mnchen-3ya.de" ] || { echo "FAIL: expected xn--mnchen-3ya.de, got $result"; exit 1; }
+        - name: Decode ACE form back to Unicode
+          runs: |
+            # Decode an ACE (punycode) domain name back to Unicode
+            export LANG=C.UTF-8
+            result=$(echo "xn--mnchen-3ya.de" | idn2 --decode)
+            echo "Decoded: $result"
+            [ "$result" = "münchen.de" ] || { echo "FAIL: expected münchen.de, got $result"; exit 1; }
+
+  - name: libidn2-static
+    pipeline:
+      - uses: split/static
+    test:
+      pipeline:
+        - uses: test/tw/staticpackage
+    description: libidn2 static
+
+  - name: libidn2-dev
+    pipeline:
+      - uses: split/dev
+    dependencies:
+      runtime:
+        - libidn2
+    description: libidn2 dev
+    test:
+      pipeline:
+        - uses: test/pkgconf
+        - uses: test/tw/ldd-check
+
+  - name: libidn2-doc
+    pipeline:
+      - uses: split/manpages
+      - uses: split/infodir
+    description: libidn2 manpages
+    test:
+      pipeline:
+        - uses: test/docs
+
+update:
+  enabled: true
+  git:
+    strip-prefix: v
+    tag-filter-prefix: v
+
+test:
+  pipeline:
+    - uses: test/tw/ldd-check

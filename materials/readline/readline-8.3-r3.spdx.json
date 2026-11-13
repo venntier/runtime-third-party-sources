@@ -1,0 +1,146 @@
+{
+  "spdxVersion": "SPDX-2.3",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "name": "apk-readline-8.3-r3",
+  "documentNamespace": "https://spdx.org/spdxdocs/chainguard/build/6bdbb9a7fffdd3eba8620805c1b89f1e",
+  "creationInfo": {
+    "licenseListVersion": "3.22",
+    "creators": [
+      "Tool: chainguard-build (v0.59.0)",
+      "Organization: Chainguard, Inc"
+    ],
+    "created": "2026-08-29T10:20:07Z"
+  },
+  "packages": [
+    {
+      "name": "wolfi",
+      "SPDXID": "SPDXRef-OperatingSystem",
+      "supplier": "Organization: Wolfi",
+      "originator": "Organization: Wolfi",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "description": "Operating System",
+      "primaryPackagePurpose": "OPERATING-SYSTEM"
+    },
+    {
+      "name": "readline",
+      "SPDXID": "SPDXRef-Package-apk-readline-8.3-r3",
+      "versionInfo": "8.3-r3",
+      "supplier": "Organization: Wolfi",
+      "originator": "Organization: Wolfi",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "GPL-3.0-or-later",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:apk/wolfi/readline@8.3-r3?arch=x86_64\u0026distro=wolfi"
+        }
+      ],
+      "primaryPackagePurpose": "APPLICATION"
+    },
+    {
+      "name": "readline.yaml",
+      "SPDXID": "SPDXRef-Package-Melange-readline.yaml-20a5359ac0a7a6aca23efa343f0f29c8d3ea1453",
+      "versionInfo": "20a5359ac0a7a6aca23efa343f0f29c8d3ea1453",
+      "supplier": "Organization: Wolfi",
+      "originator": "Organization: Wolfi",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:github/chainguard-dev/stereo@20a5359ac0a7a6aca23efa343f0f29c8d3ea1453#readline.yaml"
+        }
+      ],
+      "primaryPackagePurpose": "INSTALL"
+    },
+    {
+      "name": "git/readline",
+      "SPDXID": "SPDXRef-Package-Source-git.savannah.gnu.org-git-readline.git-readline-8.3-447b8290b3e2e2d117dc8e9cdb83b0dc6448a638-0",
+      "versionInfo": "readline-8.3",
+      "supplier": "Organization: Wolfi",
+      "originator": "Organization: Wolfi",
+      "downloadLocation": "https://tarballs.cgr.dev/g/ca1544b7a4361c29393002e6b6d7b40cf760179801b69a5c375d2d2ed53e109a-447b8290b3e2e2d117dc8e9cdb83b0dc6448a638.tar.gz",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "GPL-3.0-or-later",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:generic/git%2Freadline@readline-8.3?vcs_url=git%2Bhttps:%2F%2Fgit.savannah.gnu.org%2Fgit%2Freadline.git%40447b8290b3e2e2d117dc8e9cdb83b0dc6448a638"
+        }
+      ],
+      "primaryPackagePurpose": "SOURCE"
+    },
+    {
+      "name": "readline",
+      "SPDXID": "SPDXRef-Package-apk-readline-b03be3e49eccd7a8",
+      "versionInfo": "8.3-r3",
+      "supplier": "Organization: chainguard",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "sourceInfo": "acquired package info from APK DB: /.PKGINFO",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "GPL-3.0-or-later",
+      "copyrightText": "NOASSERTION",
+      "description": "GNU readline library",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:apk/wolfi/readline@8.3-r3?arch=x86_64\u0026origin=readline"
+        }
+      ]
+    },
+    {
+      "name": "readline",
+      "SPDXID": "SPDXRef-DocumentRoot-Directory-readline",
+      "versionInfo": "8.3-r3",
+      "supplier": "Organization: chainguard",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "primaryPackagePurpose": "FILE"
+    }
+  ],
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-Package-apk-readline-8.3-r3",
+      "relatedSpdxElement": "SPDXRef-Package-Melange-readline.yaml-20a5359ac0a7a6aca23efa343f0f29c8d3ea1453",
+      "relationshipType": "DESCRIBED_BY"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-apk-readline-8.3-r3",
+      "relatedSpdxElement": "SPDXRef-Package-Source-git.savannah.gnu.org-git-readline.git-readline-8.3-447b8290b3e2e2d117dc8e9cdb83b0dc6448a638-0",
+      "relationshipType": "GENERATED_FROM"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relatedSpdxElement": "SPDXRef-Package-apk-readline-8.3-r3",
+      "relationshipType": "DESCRIBES"
+    },
+    {
+      "spdxElementId": "SPDXRef-DocumentRoot-Directory-readline",
+      "relatedSpdxElement": "SPDXRef-Package-apk-readline-b03be3e49eccd7a8",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-apk-readline-8.3-r3",
+      "relatedSpdxElement": "SPDXRef-DocumentRoot-Directory-readline",
+      "relationshipType": "CONTAINS"
+    }
+  ]
+}

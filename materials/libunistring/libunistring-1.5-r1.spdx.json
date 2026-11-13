@@ -1,0 +1,146 @@
+{
+  "spdxVersion": "SPDX-2.3",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "name": "apk-libunistring-1.5-r1",
+  "documentNamespace": "https://spdx.org/spdxdocs/chainguard/build/f5edab5153f68a762d7aba32744e375b",
+  "creationInfo": {
+    "licenseListVersion": "3.22",
+    "creators": [
+      "Tool: chainguard-build (v0.63.2)",
+      "Organization: Chainguard, Inc"
+    ],
+    "created": "2026-11-05T21:23:58Z"
+  },
+  "packages": [
+    {
+      "name": "wolfi",
+      "SPDXID": "SPDXRef-OperatingSystem",
+      "supplier": "Organization: Wolfi",
+      "originator": "Organization: Wolfi",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "description": "Operating System",
+      "primaryPackagePurpose": "OPERATING-SYSTEM"
+    },
+    {
+      "name": "libunistring",
+      "SPDXID": "SPDXRef-Package-apk-libunistring-1.5-r1",
+      "versionInfo": "1.5-r1",
+      "supplier": "Organization: Wolfi",
+      "originator": "Organization: Wolfi",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "GPL-2.0-or-later OR LGPL-3.0-or-later",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:apk/wolfi/libunistring@1.5-r1?arch=x86_64\u0026distro=wolfi"
+        }
+      ],
+      "primaryPackagePurpose": "APPLICATION"
+    },
+    {
+      "name": "libunistring.yaml",
+      "SPDXID": "SPDXRef-Package-Melange-libunistring.yaml-d8c1739b8ac0376433f810660cfe5c19987e66d2",
+      "versionInfo": "d8c1739b8ac0376433f810660cfe5c19987e66d2",
+      "supplier": "Organization: Wolfi",
+      "originator": "Organization: Wolfi",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:github/chainguard-dev/stereo@d8c1739b8ac0376433f810660cfe5c19987e66d2#libunistring.yaml"
+        }
+      ],
+      "primaryPackagePurpose": "INSTALL"
+    },
+    {
+      "name": "git/libunistring",
+      "SPDXID": "SPDXRef-Package-Source-https.git.savannah.gnu.org-git-libunistring.git-v1.5-9a0b11a515258048ba17f05009cbd317298de92d-0",
+      "versionInfo": "v1.5",
+      "supplier": "Organization: Wolfi",
+      "originator": "Organization: Wolfi",
+      "downloadLocation": "https://tarballs.cgr.dev/g/8647b56477282eff9978402011260dd5cf99ea235db78088a35a84c76d6356c8-9a0b11a515258048ba17f05009cbd317298de92d.tar.gz",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "GPL-2.0-or-later OR LGPL-3.0-or-later",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:generic/git%2Flibunistring@v1.5?vcs_url=git%2Bhttps:%2F%2Fhttps.git.savannah.gnu.org%2Fgit%2Flibunistring.git%409a0b11a515258048ba17f05009cbd317298de92d"
+        }
+      ],
+      "primaryPackagePurpose": "SOURCE"
+    },
+    {
+      "name": "libunistring",
+      "SPDXID": "SPDXRef-Package-apk-libunistring-24657f606183fbd8",
+      "versionInfo": "1.5-r1",
+      "supplier": "Organization: chainguard",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "sourceInfo": "acquired package info from APK DB: /.PKGINFO",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "(GPL-2.0-or-later OR LGPL-3.0-or-later)",
+      "copyrightText": "NOASSERTION",
+      "description": "Library for manipulating Unicode strings and C strings",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:apk/wolfi/libunistring@1.5-r1?arch=x86_64\u0026origin=libunistring"
+        }
+      ]
+    },
+    {
+      "name": "libunistring",
+      "SPDXID": "SPDXRef-DocumentRoot-Directory-libunistring",
+      "versionInfo": "1.5-r1",
+      "supplier": "Organization: chainguard",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "primaryPackagePurpose": "FILE"
+    }
+  ],
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-Package-apk-libunistring-1.5-r1",
+      "relatedSpdxElement": "SPDXRef-Package-Melange-libunistring.yaml-d8c1739b8ac0376433f810660cfe5c19987e66d2",
+      "relationshipType": "DESCRIBED_BY"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-apk-libunistring-1.5-r1",
+      "relatedSpdxElement": "SPDXRef-Package-Source-https.git.savannah.gnu.org-git-libunistring.git-v1.5-9a0b11a515258048ba17f05009cbd317298de92d-0",
+      "relationshipType": "GENERATED_FROM"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relatedSpdxElement": "SPDXRef-Package-apk-libunistring-1.5-r1",
+      "relationshipType": "DESCRIBES"
+    },
+    {
+      "spdxElementId": "SPDXRef-DocumentRoot-Directory-libunistring",
+      "relatedSpdxElement": "SPDXRef-Package-apk-libunistring-24657f606183fbd8",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-apk-libunistring-1.5-r1",
+      "relatedSpdxElement": "SPDXRef-DocumentRoot-Directory-libunistring",
+      "relationshipType": "CONTAINS"
+    }
+  ]
+}

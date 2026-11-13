@@ -1,0 +1,52 @@
+{
+  "package": "libidn2-2.3.8-r12.spdx.json",
+  "sources": [
+    {
+      "url": "https://tarballs.cgr.dev/l/647ec517d7d5a099d6182bc708cd871327e049f96c961ab62ae2acea4398bf29-9bc3ac79e2ae81ade245a0e308bf13c981efaa83.tar.gz",
+      "sha256": "c1628c59a164d1a3d55ca44bf10a3e2a9bf06988bcb1d2d35fa8f4cd1d4cdc7e",
+      "accessible": true
+    }
+  ],
+  "materials": [
+    {
+      "file": "COPYING.txt",
+      "upstream_path": "libidn2-9bc3ac79e2ae81ade245a0e308bf13c981efaa83/COPYING",
+      "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
+    },
+    {
+      "file": "COPYING.LESSERv3.txt",
+      "upstream_path": "libidn2-9bc3ac79e2ae81ade245a0e308bf13c981efaa83/COPYING.LESSERv3",
+      "sha256": "e3a994d82e644b03a792a930f574002658412f62407f5fee083f2555c5f23118"
+    },
+    {
+      "file": "COPYING.unicode.txt",
+      "upstream_path": "libidn2-9bc3ac79e2ae81ade245a0e308bf13c981efaa83/COPYING.unicode",
+      "sha256": "01d621eef165cf4d3d3dbb737aa0699178d94c6f18cf87e9dde6db3ca7790f46"
+    },
+    {
+      "file": "COPYINGv2.txt",
+      "upstream_path": "libidn2-9bc3ac79e2ae81ade245a0e308bf13c981efaa83/COPYINGv2",
+      "sha256": "edaef632cbb643e4e7a221717a6c441a4c1a7c918e6e4d56debc3d8739b233f6"
+    },
+    {
+      "file": "recipe.yaml.txt",
+      "upstream_path": "https://raw.githubusercontent.com/wolfi-dev/os/b05894c521b790b03b8f2dfe1bc573f7e31acb44/libidn2.yaml",
+      "sha256": "3a2870d2151f4d16558b45e9ad42257d95e0f4939dd5936d773d9a1568421d0b"
+    },
+    {
+      "file": "README.md.txt",
+      "upstream_path": "libidn2-9bc3ac79e2ae81ade245a0e308bf13c981efaa83/README.md",
+      "sha256": "fd8b5fd38cb6e5599ff412bf7411108e83c830aea75a47bcc96c86f05b8ff607"
+    },
+    {
+      "file": "lib__idn2.h.in.txt",
+      "upstream_path": "libidn2-9bc3ac79e2ae81ade245a0e308bf13c981efaa83/lib/idn2.h.in",
+      "sha256": "88dbb01735f1173e75b2d2f04bece26d145dcc6b721fcd1b3ee5cbe3f7c2d75f"
+    }
+  ],
+  "original_recipe": {
+    "url": "https://raw.githubusercontent.com/chainguard-dev/stereo/491b184c82ef2868d73a46a98997db789342ff15/libidn2.yaml",
+    "accessible": false,
+    "error": "HTTP Error 404: Not Found"
+  }
+}
